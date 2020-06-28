@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2020 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 19:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://masek0815.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Day 100: The Offensive continues</title>
+      <link>https://masek0815.github.io/2020/06/day-100-the-offensive-continues/</link>
+      <pubDate>Sun, 28 Jun 2020 19:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-100-the-offensive-continues/</guid>
+      <description>100 days are over, but I am still in the home office. And if I read the signs and portents correctly, I also will be for quite some time coming. So I will continue my offensive here.</description>
+    </item>
     
     <item>
       <title>Day 99: Migrating</title>
@@ -45,15 +54,6 @@
       
       <guid>https://masek0815.github.io/2020/06/day-96-the-new-blogger-migrating-away/</guid>
       <description>Google does it again: They are slowly strangling a working system.</description>
-    </item>
-    
-    <item>
-      <title>Day 95: Bakery</title>
-      <link>https://masek0815.github.io/2020/06/day-95-bakery/</link>
-      <pubDate>Tue, 23 Jun 2020 12:00:00 +0200</pubDate>
-      
-      <guid>https://masek0815.github.io/2020/06/day-95-bakery/</guid>
-      <description>As mentioned, I spent the last weekend on a bakery course with a friend.</description>
     </item>
     
   </channel>
