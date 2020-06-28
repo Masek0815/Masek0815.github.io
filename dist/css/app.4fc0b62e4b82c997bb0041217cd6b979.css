@@ -58,7 +58,7 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.17em 0;
 }
 
 /* Grouping content
@@ -3654,8 +3654,8 @@ code, .code {
 }
 
 .pv4 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .pv5 {
@@ -3878,7 +3878,7 @@ code, .code {
   .pa1-ns {  padding: .25rem; }
   .pa2-ns  {  padding: .5rem; }
   .pa3-ns  {  padding: 1rem; }
-  .pa4-ns  {  padding: 2rem; }
+  .pa4-ns  {  padding-left: 2rem; }
   .pa5-ns  {  padding: 4rem; }
   .pa6-ns {  padding: 8rem; }
   .pa7-ns { padding: 16rem; }
