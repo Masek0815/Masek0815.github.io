@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Literarily Starved</title>
     <link>https://masek0815.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Literarily Starved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 18:27:01 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 12:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://masek0815.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Day 99: Migrating</title>
+      <link>https://masek0815.github.io/2020/06/day-99-migrating/</link>
+      <pubDate>Sat, 27 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-99-migrating/</guid>
+      <description>Migration is in progress &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 98: Weekend</title>
+      <link>https://masek0815.github.io/2020/06/day-98-weekend/</link>
+      <pubDate>Fri, 26 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-98-weekend/</guid>
+      <description>My plans: sleeping (a lot), moving my blog (away from Google) cooking something nice.</description>
+    </item>
     
     <item>
       <title>Day 97: Hugo</title>
@@ -17,18 +35,7 @@
       <pubDate>Thu, 25 Jun 2020 18:27:01 +0200</pubDate>
       
       <guid>https://masek0815.github.io/2020/06/day-97-hugo/</guid>
-      <description>This article is part of The 100 Days Offensive. Go to Day 96.
-It is decided: I will use Hugo as content management system and deploy my blog as static web site.
-I really like the simplicity of the concept and the speed as a result. Furthermore I can use my favorite editor. I installed Hugo using WSL2 under Windows 10. I can prevent any broken URL through aliases within the CMS.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://masek0815.github.io/2020/06/my-first-post/</link>
-      <pubDate>Thu, 25 Jun 2020 10:12:57 +0200</pubDate>
-      
-      <guid>https://masek0815.github.io/2020/06/my-first-post/</guid>
-      <description>Spezifikation Fahrrad Hintergrund  Ich fahre nicht viel, eine Tagesfahrleistung von 20km wird nur selten überschritten. Nach einiger Überlegung soll es KEIN Pedelec sondern ein normales Rad werden. Komfort vor Geschwindigkeit: Ich möchte gerne Radfahren, nicht besonders schnell ankommen Wartungsarm ist ein absolutes Muss: Ich bin handwerklich eine komplette Niete und hasse es, Dinge selber machen zu müssen. Das Rad gebe ich gerne einmal in die Wartung und die darf was kosten, den Rest des Jahres soll es ohne jeden Eingriff einfach tun.</description>
+      <description>It is decided: I will use &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo &lt;/a&gt;as content management system and deploy my blog as static web site.</description>
     </item>
     
     <item>
@@ -37,22 +44,970 @@ I really like the simplicity of the concept and the speed as a result. Furthermo
       <pubDate>Wed, 24 Jun 2020 10:19:02 +0200</pubDate>
       
       <guid>https://masek0815.github.io/2020/06/day-96-the-new-blogger-migrating-away/</guid>
-      <description>This article is part of The 100 Days Offensive. Go to Day 95.
-Google does it again: They are slowly strangling a working system.
-You may have noticed that my blog had problems with images lately.
-The reason for those problems is this:
-
-Google once again starts to pointing a gun at a service I&amp;rsquo;m using. The &amp;ldquo;new Blogger&amp;rdquo; has critical issues, but offers no UI to file those critical issues.</description>
+      <description>Google does it again: They are slowly strangling a working system.</description>
+    </item>
+    
+    <item>
+      <title>Day 95: Bakery</title>
+      <link>https://masek0815.github.io/2020/06/day-95-bakery/</link>
+      <pubDate>Tue, 23 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-95-bakery/</guid>
+      <description>As mentioned, I spent the last weekend on a bakery course with a friend.</description>
+    </item>
+    
+    <item>
+      <title>Day 94a: Dan McCrum and Wirecard</title>
+      <link>https://masek0815.github.io/2020/06/day-94a-dan-mccrum-and-wirecard/</link>
+      <pubDate>Mon, 22 Jun 2020 13:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-94a-dan-mccrum-and-wirecard/</guid>
+      <description>In early 2019 Dan McCrum reported on the Wirecard scandal in depth.</description>
+    </item>
+    
+    <item>
+      <title>Day 94: Timeout</title>
+      <link>https://masek0815.github.io/2020/06/day-94-timeout/</link>
+      <pubDate>Mon, 22 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-94-timeout/</guid>
+      <description>Sorry for the unexplained lack of posts. But the stress took it&amp;rsquo;s toll on me.</description>
+    </item>
+    
+    <item>
+      <title>Day 86: The most played game</title>
+      <link>https://masek0815.github.io/2020/06/day-86-the-most-played-game/</link>
+      <pubDate>Sun, 14 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-86-the-most-played-game/</guid>
+      <description>My most played game at the moment is an old one.</description>
+    </item>
+    
+    <item>
+      <title>Day 84: A day at the court</title>
+      <link>https://masek0815.github.io/2020/06/day-84-a-day-at-the-court/</link>
+      <pubDate>Fri, 12 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-84-a-day-at-the-court/</guid>
+      <description>Today I spent a vacation day to visit the court. I was not directly involved in the lawsuit, but it was an important session for a close friend.</description>
+    </item>
+    
+    <item>
+      <title>Day 82c: Martin&#39;s Laws</title>
+      <link>https://masek0815.github.io/2020/06/day-82c-martins-laws/</link>
+      <pubDate>Wed, 10 Jun 2020 14:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-82c-martins-laws/</guid>
+      <description>At some point in life, one makes observations that feel like universal laws. I collect mines in this post.</description>
+    </item>
+    
+    <item>
+      <title>Day 82b: History always repeats itself</title>
+      <link>https://masek0815.github.io/2020/06/day-82b-history-always-repeats-itself/</link>
+      <pubDate>Wed, 10 Jun 2020 13:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-82b-history-always-repeats-itself/</guid>
+      <description>Luckily not just mistakes get repeated, food as well.</description>
+    </item>
+    
+    <item>
+      <title>Day 82a: Oops, I did it again</title>
+      <link>https://masek0815.github.io/2020/06/day-82a-oops-i-did-it-again/</link>
+      <pubDate>Wed, 10 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-82a-oops-i-did-it-again/</guid>
+      <description>Somehow the blog post for yesterday slipped my mind.</description>
+    </item>
+    
+    <item>
+      <title>Day 80: Bun Update</title>
+      <link>https://masek0815.github.io/2020/06/day-80-bun-update/</link>
+      <pubDate>Mon, 08 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-80-bun-update/</guid>
+      <description>The continued time in the home office keeps improving my baking skills.</description>
+    </item>
+    
+    <item>
+      <title>Day 79: Sunday blues ...</title>
+      <link>https://masek0815.github.io/2020/06/day-79-sunday-blues-.../</link>
+      <pubDate>Sun, 07 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-79-sunday-blues-.../</guid>
+      <description>The new week has not yet begun and I am already tired. But I guess that has little to do with the amount of sleep I get.</description>
+    </item>
+    
+    <item>
+      <title>Day 78: Choosing a bike</title>
+      <link>https://masek0815.github.io/2020/06/day-78-choosing-a-bike/</link>
+      <pubDate>Sat, 06 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-78-choosing-a-bike/</guid>
+      <description>After my bike was stolen, I organized myself a temporary replacement. But it will be temporary, there is too much that doesn&amp;rsquo;t really work for me.</description>
+    </item>
+    
+    <item>
+      <title>Day 77: Mac&#39;n Cheese Plus</title>
+      <link>https://masek0815.github.io/2020/06/day-77-macn-cheese-plus/</link>
+      <pubDate>Fri, 05 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-77-macn-cheese-plus/</guid>
+      <description>Plan was to cook something that doesn&amp;rsquo;t take long or a lot of effort but is still very tasty&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 76: A cheap party</title>
+      <link>https://masek0815.github.io/2020/06/day-76-a-cheap-party/</link>
+      <pubDate>Thu, 04 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-76-a-cheap-party/</guid>
+      <description>For my birthday party I setup a Jitsi server and met with my friends online. It was a nice evening and a lot people attended that would never have been able to come on-site.</description>
+    </item>
+    
+    <item>
+      <title>Day 75: Solve one problem, find the next one ...</title>
+      <link>https://masek0815.github.io/2020/06/day-75-solve-one-problem-find-the-next-one-.../</link>
+      <pubDate>Wed, 03 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-75-solve-one-problem-find-the-next-one-.../</guid>
+      <description>I wanted to fix one problem of the Swapfiets: the tiny saddle. While the stated goal was achieved, in the end I just exchanged one problem for another, only sightly smaller one.</description>
+    </item>
+    
+    <item>
+      <title>Day 74: Setting up a Jitsi-Server (Part 2: Authentication for Meeting Creation) This article is part of The 100</title>
+      <link>https://masek0815.github.io/2020/06/day-74-setting-up-a-jitsi-server-part-2-authentication-for-meeting-creation-this-article-is-part-of-the-100/</link>
+      <pubDate>Tue, 02 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-74-setting-up-a-jitsi-server-part-2-authentication-for-meeting-creation-this-article-is-part-of-the-100/</guid>
+      <description>In Part 1 I described how to do the basic setup of Jitsi. Unluckily this leaves your Jitsi server completely open. That is the intended setting for participating at a meeting, but not for initiating a new conference. That shall be reserved for authenticated users.</description>
+    </item>
+    
+    <item>
+      <title>Day 73: Slacking</title>
+      <link>https://masek0815.github.io/2020/06/day-73-slacking/</link>
+      <pubDate>Mon, 01 Jun 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/06/day-73-slacking/</guid>
+      <description>This has been a long three-day-weekend due to Pentecost Monday here in Germany. I used Sunday evening and the extra day to slack a bit&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 72: Paperwork</title>
+      <link>https://masek0815.github.io/2020/05/day-72-paperwork/</link>
+      <pubDate>Sun, 31 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-72-paperwork/</guid>
+      <description>Every few months I go through all the paperwork I received. The bills should already have been paid, but I use that pass to make sure of it. Then I digitize all relevant mail.</description>
+    </item>
+    
+    <item>
+      <title>Day 71: Bumblebee watching</title>
+      <link>https://masek0815.github.io/2020/05/day-71-bumblebee-watching/</link>
+      <pubDate>Sat, 30 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-71-bumblebee-watching/</guid>
+      <description>I&amp;rsquo;m not a nature guy. You probably wouldn&amp;rsquo;t have guessed that from my blog. But there are some exceptions and one of those is watching bumblebees.</description>
+    </item>
+    
+    <item>
+      <title>Day 70: Swapfiets</title>
+      <link>https://masek0815.github.io/2020/05/day-70-swapfiets/</link>
+      <pubDate>Fri, 29 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-70-swapfiets/</guid>
+      <description>So my bike was stolen on Wednesday, I am already mobile again on Friday. Thanks to bike-as-a-service.</description>
+    </item>
+    
+    <item>
+      <title>Day 69: Review &#39;Westworld - Season 3&#39; (TV series)</title>
+      <link>https://masek0815.github.io/2020/05/day-69-review-westworld-season-3-tv-series/</link>
+      <pubDate>Thu, 28 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-69-review-westworld-season-3-tv-series/</guid>
+      <description>We&amp;rsquo;re not in Kansas anymore with the third season of &amp;lsquo;Westworld&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Day 68: Goodbye old friend....</title>
+      <link>https://masek0815.github.io/2020/05/day-68-goodbye-old-friend..../</link>
+      <pubDate>Wed, 27 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-68-goodbye-old-friend..../</guid>
+      <description>Today a companion for 20 years was stolen from me&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 67: Tandoori-Peach-Turkey-Curry</title>
+      <link>https://masek0815.github.io/2020/05/day-67-tandoori-peach-turkey-curry/</link>
+      <pubDate>Tue, 26 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-67-tandoori-peach-turkey-curry/</guid>
+      <description>One thing I like about the home office: I get to cook more.</description>
+    </item>
+    
+    <item>
+      <title>Day 66: Is it over yet?</title>
+      <link>https://masek0815.github.io/2020/05/day-66-is-it-over-yet/</link>
+      <pubDate>Mon, 25 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-66-is-it-over-yet/</guid>
+      <description>When I look outside, someone seems to have declared the Corona crisis to be over.</description>
+    </item>
+    
+    <item>
+      <title>Day 65: DIY Haircut</title>
+      <link>https://masek0815.github.io/2020/05/day-65-diy-haircut/</link>
+      <pubDate>Sun, 24 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-65-diy-haircut/</guid>
+      <description>The hair was getting too long, but the hair stylists are still on limited operations: appointment only, full contact data, difficult to reach, etc. So I did the G.I. Jane&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 64: My Corona Party</title>
+      <link>https://masek0815.github.io/2020/05/day-64-my-corona-party/</link>
+      <pubDate>Sat, 23 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-64-my-corona-party/</guid>
+      <description>Today I celebrated my birthday. Due to the circumstances, a normal party was out of the question for me. So I organized an online event.</description>
+    </item>
+    
+    <item>
+      <title>Day 63: Who&#39;s a good (quarantine) boy?</title>
+      <link>https://masek0815.github.io/2020/05/day-63-whos-a-good-quarantine-boy/</link>
+      <pubDate>Fri, 22 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-63-whos-a-good-quarantine-boy/</guid>
+      <description>Am I? Am I?</description>
+    </item>
+    
+    <item>
+      <title>Day 62: Setting up a Jitsi-Server (Part 1: Basic Setup)</title>
+      <link>https://masek0815.github.io/2020/05/day-62-setting-up-a-jitsi-server-part-1-basic-setup/</link>
+      <pubDate>Thu, 21 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-62-setting-up-a-jitsi-server-part-1-basic-setup/</guid>
+      <description>On Saturday, I want to celebrate my birthday. But a classic party is out of the question. So my idea was to host a video conference for my friends and drink coffee and eat cake virtually together.</description>
+    </item>
+    
+    <item>
+      <title>Day 61: Improvised meal</title>
+      <link>https://masek0815.github.io/2020/05/day-61-improvised-meal/</link>
+      <pubDate>Wed, 20 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-61-improvised-meal/</guid>
+      <description>Sometimes you have to cook what is on hands&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 60: Conferencing WITH video</title>
+      <link>https://masek0815.github.io/2020/05/day-60-conferencing-with-video/</link>
+      <pubDate>Tue, 19 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-60-conferencing-with-video/</guid>
+      <description>Thanks to Corona, I am doing currently about 30-50 conference calls per week. Based on 8 weeks of experience (best estimate: 300+ calls), I can only recommend: Turn your video on.</description>
+    </item>
+    
+    <item>
+      <title>Day 59:Planting Season</title>
+      <link>https://masek0815.github.io/2020/05/day-59planting-season/</link>
+      <pubDate>Mon, 18 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-59planting-season/</guid>
+      <description>It is spring, planting season&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 58: Completed &#39;The Witcher 3: The Wild Hunt&#39;</title>
+      <link>https://masek0815.github.io/2020/05/day-58-completed-the-witcher-3-the-wild-hunt/</link>
+      <pubDate>Sun, 17 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-58-completed-the-witcher-3-the-wild-hunt/</guid>
+      <description>Five years after I started the game, I finally completed &amp;lsquo;The Witcher 3: The Wild Hunt&amp;rsquo;. It took me longer than expected.</description>
+    </item>
+    
+    <item>
+      <title>Day 57: The strange mystery of Paula Volsky</title>
+      <link>https://masek0815.github.io/2020/05/day-57-the-strange-mystery-of-paula-volsky/</link>
+      <pubDate>Sat, 16 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-57-the-strange-mystery-of-paula-volsky/</guid>
+      <description>Paula Volsky has written some of the best fantasy novels I&amp;rsquo;ve ever read. But she is also some kind of enigma for me. There is no writer on whose book I&amp;rsquo;ve spent so much time chasing them down.</description>
+    </item>
+    
+    <item>
+      <title>Day 56: Bun Update</title>
+      <link>https://masek0815.github.io/2020/05/day-56-bun-update/</link>
+      <pubDate>Fri, 15 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-56-bun-update/</guid>
+      <description>Thanks to the support of my baking coach, my buns are improving.</description>
+    </item>
+    
+    <item>
+      <title>Day 55: Review &#39;The Last Kingom - Season 4&#39; (TV series)</title>
+      <link>https://masek0815.github.io/2020/05/day-55-review-the-last-kingom-season-4-tv-series/</link>
+      <pubDate>Thu, 14 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-55-review-the-last-kingom-season-4-tv-series/</guid>
+      <description>Uthred, Son of Utrhred is stumbling through his fourth season on Netflix. I liked the first season, but each consecutive one less and less.</description>
+    </item>
+    
+    <item>
+      <title>Day 54: An important helper</title>
+      <link>https://masek0815.github.io/2020/05/day-54-an-important-helper/</link>
+      <pubDate>Wed, 13 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-54-an-important-helper/</guid>
+      <description>For an offensive, one needs allies or helpers. Here is mine.</description>
+    </item>
+    
+    <item>
+      <title>Day 53: Important Education</title>
+      <link>https://masek0815.github.io/2020/05/day-53-important-education/</link>
+      <pubDate>Tue, 12 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-53-important-education/</guid>
+      <description>What were the most important steps in my education? There are obvious answers like school and the university, but they matter less or in a different way that one would initially think.</description>
+    </item>
+    
+    <item>
+      <title>Day 52: The blessed curse of Amazon</title>
+      <link>https://masek0815.github.io/2020/05/day-52-the-blessed-curse-of-amazon/</link>
+      <pubDate>Mon, 11 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-52-the-blessed-curse-of-amazon/</guid>
+      <description>I&amp;rsquo;ve got an itchy trigger finger. That&amp;rsquo;s good when playing shooter games, but bad for my shopping habits. I&amp;rsquo;m the man who buys faster than his shadow.</description>
+    </item>
+    
+    <item>
+      <title>Day 51: Captain&#39;s Chair</title>
+      <link>https://masek0815.github.io/2020/05/day-51-captains-chair/</link>
+      <pubDate>Sun, 10 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-51-captains-chair/</guid>
+      <description>I want to spend more time in space, so I need a proper command center.</description>
+    </item>
+    
+    <item>
+      <title>Day 50: Half way</title>
+      <link>https://masek0815.github.io/2020/05/day-50-half-way/</link>
+      <pubDate>Sat, 09 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-50-half-way/</guid>
+      <description>Today marks half the way in The 100 Days Offensive. Time to summarize and review things.</description>
+    </item>
+    
+    <item>
+      <title>Day 49: Playing with Zabbix</title>
+      <link>https://masek0815.github.io/2020/05/day-49-playing-with-zabbix/</link>
+      <pubDate>Fri, 08 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-49-playing-with-zabbix/</guid>
+      <description>Today QNAP surprised me with an email that they would love to provide me with a ready-to-run Zabbix Image for a VM on my storage. I did not decline&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 48: IT-Security &amp; Corona</title>
+      <link>https://masek0815.github.io/2020/05/day-48-it-security-corona/</link>
+      <pubDate>Thu, 07 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-48-it-security-corona/</guid>
+      <description>I was asked about the impact of Corona on the IT-Security. This is what I came up with.</description>
+    </item>
+    
+    <item>
+      <title>Day 47: Review &#39;Microsoft Teams&#39; (Software)</title>
+      <link>https://masek0815.github.io/2020/05/day-47-review-microsoft-teams-software/</link>
+      <pubDate>Wed, 06 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-47-review-microsoft-teams-software/</guid>
+      <description>This one is from love-and-hate-department. With the current situation, work could be really a lot more difficult without a software like Microsoft Teams. On the other side, the idiosyncrasies can really drive me mad.</description>
+    </item>
+    
+    <item>
+      <title>Day 46: Spanish Tortilla</title>
+      <link>https://masek0815.github.io/2020/05/day-46-spanish-tortilla/</link>
+      <pubDate>Tue, 05 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-46-spanish-tortilla/</guid>
+      <description>One benefit of the home office is the chance to cook more than usual&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Day 45: Nothing new in the home office</title>
+      <link>https://masek0815.github.io/2020/05/day-45-nothing-new-in-the-home-office/</link>
+      <pubDate>Mon, 04 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-45-nothing-new-in-the-home-office/</guid>
+      <description>By now I am in the home office for seven weeks now. My wife started two weeks later.</description>
+    </item>
+    
+    <item>
+      <title>Day 44: Review &#39;The Murderbot Diaries&#39; (Book Series)</title>
+      <link>https://masek0815.github.io/2020/05/day-44-review-the-murderbot-diaries-book-series/</link>
+      <pubDate>Sun, 03 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-44-review-the-murderbot-diaries-book-series/</guid>
+      <description>The first lines of &amp;lsquo;All Systems Red&amp;rsquo; caught my attention: &amp;lsquo;I could have become a mass murderer after I hacked my governor module, but then i realized, I could access the combined feed of entertainment channels carried on the company channels.&amp;rsquo; I fell for it hook, line, and sinker.</description>
+    </item>
+    
+    <item>
+      <title>Day 43: Review &#39;Chimera Squad&#39; (Computer Game)</title>
+      <link>https://masek0815.github.io/2020/05/day-43-review-chimera-squad-computer-game/</link>
+      <pubDate>Sat, 02 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-43-review-chimera-squad-computer-game/</guid>
+      <description>As I already pointed out, I am an armchair strategist. My favorites are turn based games as my life is already hectic enough. The surprising appearance of &amp;lsquo;Chimera Squad&amp;rsquo; on the gaming market came just at the right time.</description>
+    </item>
+    
+    <item>
+      <title>Day 42: Review &#39;Night on Earth&#39; (Netflix Series)</title>
+      <link>https://masek0815.github.io/2020/05/day-42-review-night-on-earth-netflix-series/</link>
+      <pubDate>Fri, 01 May 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/05/day-42-review-night-on-earth-netflix-series/</guid>
+      <description>Animal activity that does not involve eating my wife&amp;rsquo;s plants in the garden nor destroying equipment in her shed is an easy sell on us. So we watched Night on Earth with great anticipation.</description>
+    </item>
+    
+    <item>
+      <title>Day 41: A perfect month?</title>
+      <link>https://masek0815.github.io/2020/04/day-41-a-perfect-month/</link>
+      <pubDate>Thu, 30 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-41-a-perfect-month/</guid>
+      <description>Nobody can accuse Apple of lacking a sense of humor.</description>
+    </item>
+    
+    <item>
+      <title>Day 40: A New Firewall</title>
+      <link>https://masek0815.github.io/2020/04/day-40-a-new-firewall/</link>
+      <pubDate>Wed, 29 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-40-a-new-firewall/</guid>
+      <description>The Home Office needs to be defended, so I installed my new firewall last weekend.</description>
+    </item>
+    
+    <item>
+      <title>Day 39: Playing with NVIDIA RTX Voice</title>
+      <link>https://masek0815.github.io/2020/04/day-39-playing-with-nvidia-rtx-voice/</link>
+      <pubDate>Tue, 28 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-39-playing-with-nvidia-rtx-voice/</guid>
+      <description>As previously said, I want to play with NVIDIA RTX Voice.</description>
+    </item>
+    
+    <item>
+      <title>Day 38: Obligatory Mask</title>
+      <link>https://masek0815.github.io/2020/04/day-38-obligatory-mask/</link>
+      <pubDate>Mon, 27 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-38-obligatory-mask/</guid>
+      <description>Starting Wednesday, the wearing of masks will obligatory here.</description>
+    </item>
+    
+    <item>
+      <title>Day 37: One impressive Quest</title>
+      <link>https://masek0815.github.io/2020/04/day-37-one-impressive-quest/</link>
+      <pubDate>Sun, 26 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-37-one-impressive-quest/</guid>
+      <description>Computer games are said to be profiting from the current stay-at-home guidelines. This is a bit strange because until a few weeks ago, for many people they were widely considered to be of evil. As you may guess, I always thought this to be ridiculous. There may be a lot of bad games out there, but there are also gems like &amp;lsquo;The Witcher 3&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Day 36: Something I want to experiment with...</title>
+      <link>https://masek0815.github.io/2020/04/day-36-something-i-want-to-experiment-with.../</link>
+      <pubDate>Sat, 25 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-36-something-i-want-to-experiment-with.../</guid>
+      <description>Something I want to experiment with is NVIDIA RTX Voice.</description>
+    </item>
+    
+    <item>
+      <title>Day 35: Corona and The Return of the Miracle Healer</title>
+      <link>https://masek0815.github.io/2020/04/day-35-corona-and-the-return-of-the-miracle-healer/</link>
+      <pubDate>Fri, 24 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-35-corona-and-the-return-of-the-miracle-healer/</guid>
+      <description>Problems without a solution can be dangerous. The Corona virus pandemic is an example for such a problem. We have approaches for a mitigation (keeping your distance, home office, etc) but no solution (e.g. vaccine or effective medication). So problems without solution are bad. But strangely solutions without problems may also be a problem.</description>
+    </item>
+    
+    <item>
+      <title>Day 34: Fasting Diary (Short Story)</title>
+      <link>https://masek0815.github.io/2020/04/day-34-fasting-diary-short-story/</link>
+      <pubDate>Thu, 23 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-34-fasting-diary-short-story/</guid>
+      <description>Monday, 10:00 am: On urgent medical advice I started fasting today. These lines shall document the infinite suffering for posterity and serve as a stark reminder to future generations.</description>
+    </item>
+    
+    <item>
+      <title>Day 33: Qualifying WTF</title>
+      <link>https://masek0815.github.io/2020/04/day-33-qualifying-wtf/</link>
+      <pubDate>Wed, 22 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-33-qualifying-wtf/</guid>
+      <description>&amp;lsquo;WTF&amp;rsquo; was once an expression of utter disbelieve. But those days are long gone.</description>
+    </item>
+    
+    <item>
+      <title>Day 32: The Daily News</title>
+      <link>https://masek0815.github.io/2020/04/day-32-the-daily-news/</link>
+      <pubDate>Tue, 21 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-32-the-daily-news/</guid>
+      <description>A crisis like the current should be a high for the news business. The people have a need to be informed and they spend a lot more time at home and therefor could reach or watch more. Strangely the opposite is true.</description>
+    </item>
+    
+    <item>
+      <title>Day 31: Recipes of my grandmother</title>
+      <link>https://masek0815.github.io/2020/04/day-31-recipes-of-my-grandmother/</link>
+      <pubDate>Mon, 20 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-31-recipes-of-my-grandmother/</guid>
+      <description>When my grandmother died in 1985, I managed to save her small book of handwritten recipes. Those things listed in there were not just food to me, but childhood memories.</description>
+    </item>
+    
+    <item>
+      <title>Day 30: Updates on Pen&amp;Paper RPGs online</title>
+      <link>https://masek0815.github.io/2020/04/day-30-updates-on-penpaper-rpgs-online/</link>
+      <pubDate>Sun, 19 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-30-updates-on-penpaper-rpgs-online/</guid>
+      <description>We have finished our fourth round so far. Every &amp;lsquo;game&amp;rsquo; has taken (as planned) between 2-3 hours. So during that time we have played as much time as we usual would have on a single evening.</description>
+    </item>
+    
+    <item>
+      <title>Day 29: Games being played</title>
+      <link>https://masek0815.github.io/2020/04/day-29-games-being-played/</link>
+      <pubDate>Sat, 18 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-29-games-being-played/</guid>
+      <description>I seem to be doing the Corona thing all wrong. I&amp;rsquo;m reading about people watching more Netflix and playing computer games. On the Netflix side I&amp;rsquo;m a complete looser at the moment. I&amp;rsquo;ve watched perhaps two episodes in the last four weeks, but I want continue with Uthred, son of Uthred next week. Gaming-wise I&amp;rsquo;m a bit better though I have less time and desire to play than before Corona. Spending so many business hours in my man-cave in the basement seems to spoil it a bit.</description>
+    </item>
+    
+    <item>
+      <title>Day 28: Home Office Energy impact</title>
+      <link>https://masek0815.github.io/2020/04/day-28-home-office-energy-impact/</link>
+      <pubDate>Fri, 17 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-28-home-office-energy-impact/</guid>
+      <description>Two people working 95% of the time from the home office: What is the energy impact?</description>
+    </item>
+    
+    <item>
+      <title>Day 27: Buns interrupted</title>
+      <link>https://masek0815.github.io/2020/04/day-27-buns-interrupted/</link>
+      <pubDate>Thu, 16 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-27-buns-interrupted/</guid>
+      <description>The disaster from Monday has been cleaned up, time to take care of the buns.</description>
+    </item>
+    
+    <item>
+      <title>Day 26: Corona: Lies, Damn lies and Statistics … and why the quip is also slightly off.</title>
+      <link>https://masek0815.github.io/2020/04/day-26-corona-lies-damn-lies-and-statistics-and-why-the-quip-is-also-slightly-off./</link>
+      <pubDate>Wed, 15 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-26-corona-lies-damn-lies-and-statistics-and-why-the-quip-is-also-slightly-off./</guid>
+      <description>Mark Twain once said: &amp;lsquo;There are three kinds of lies: lies, damned lies, and statistics.&amp;rsquo; This seems currently to be truer than ever. It is very hard to find even two Corona statistics that do not seem to contradict each other.</description>
+    </item>
+    
+    <item>
+      <title>Day 26a: Review &#39;The Last Emperox&#39; from John Scalzi</title>
+      <link>https://masek0815.github.io/2020/04/day-26a-review-the-last-emperox-from-john-scalzi/</link>
+      <pubDate>Wed, 15 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-26a-review-the-last-emperox-from-john-scalzi/</guid>
+      <description>I could not sleep last night. Went to bed early, but did not sleep through. So around midnight I started the last part of John Scalzi&amp;rsquo;s &amp;lsquo;The Interdependency&amp;rsquo; series (3 books) and finished it in one go.</description>
+    </item>
+    
+    <item>
+      <title>Day 24: Ruining the day</title>
+      <link>https://masek0815.github.io/2020/04/day-24-ruining-the-day/</link>
+      <pubDate>Mon, 13 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-24-ruining-the-day/</guid>
+      <description>Nothing ruins the day like baking plastic at 570° F.</description>
+    </item>
+    
+    <item>
+      <title>Day 23: The perfect Food for the current days</title>
+      <link>https://masek0815.github.io/2020/04/day-23-the-perfect-food-for-the-current-days/</link>
+      <pubDate>Sun, 12 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-23-the-perfect-food-for-the-current-days/</guid>
+      <description>There is food that is perfect for a time like this: Lasagna al Forno.</description>
+    </item>
+    
+    <item>
+      <title>Day 22: Greenscreen @ Home</title>
+      <link>https://masek0815.github.io/2020/04/day-22-greenscreen-home/</link>
+      <pubDate>Sat, 11 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-22-greenscreen-home/</guid>
+      <description>In the last three weeks, I have seen a lot of homes. This seems to be unavoidable when you do a lot of video conferencing during Corona times. But is it?</description>
+    </item>
+    
+    <item>
+      <title>Day 21: Mapmaking and the essence of art</title>
+      <link>https://masek0815.github.io/2020/04/day-21-mapmaking-and-the-essence-of-art/</link>
+      <pubDate>Fri, 10 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-21-mapmaking-and-the-essence-of-art/</guid>
+      <description>&amp;lsquo;At Waterloo Napoleon did surrender.&amp;rsquo; The famous line from Abba refers to a point in time (1815), where the political landscape changed drastically. The French revolution seemed to have lost and the ancien regime took over again. But the people had experienced a different world they could and would not forget. As they could not express their more radical thoughts outwardly, they headed for safer pastures, more inward. This led to a new art style that nowadays is referred to as &amp;lsquo;Biedermeier&amp;rsquo;. Maybe in 100 years, Corona too will be the name of an art style, epoch or philosophy (or even all of it).</description>
+    </item>
+    
+    <item>
+      <title>Day 20: Holidays</title>
+      <link>https://masek0815.github.io/2020/04/day-20-holidays/</link>
+      <pubDate>Thu, 09 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-20-holidays/</guid>
+      <description>Thanks to the coming public holidays, I&amp;rsquo;m looking forward to four days of no (or just little) work.</description>
+    </item>
+    
+    <item>
+      <title>Day 19: Why is the Home Office so exhausting?</title>
+      <link>https://masek0815.github.io/2020/04/day-19-why-is-the-home-office-so-exhausting/</link>
+      <pubDate>Wed, 08 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-19-why-is-the-home-office-so-exhausting/</guid>
+      <description>It is usual for me to return from work quite tired. Nevertheless the Home Office is even more exhausting. I find myself surprised at the fact that I end nearly every day with completely drained batteries. When reading about all the record numbers of players, I feel a twinge of envy. The holidays around easter arrive just in time for me to catch some breath.</description>
+    </item>
+    
+    <item>
+      <title>Day 18: A changing world</title>
+      <link>https://masek0815.github.io/2020/04/day-18-a-changing-world/</link>
+      <pubDate>Tue, 07 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-18-a-changing-world/</guid>
+      <description>The Corona pandemic is changing the world at a frightening pace. Even if some changes may be beneficial to us in the long term, the earthquake-like pace will create faults within our society and economy.</description>
+    </item>
+    
+    <item>
+      <title>Day 17: Intermediate Review</title>
+      <link>https://masek0815.github.io/2020/04/day-17-intermediate-review/</link>
+      <pubDate>Mon, 06 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-17-intermediate-review/</guid>
+      <description>We are now 17 days into The 100 Days Offensive. After starting with such lofty goals, what have I achieved so far?</description>
+    </item>
+    
+    <item>
+      <title>Day 16: Drawing Maps</title>
+      <link>https://masek0815.github.io/2020/04/day-16-drawing-maps/</link>
+      <pubDate>Sun, 05 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-16-drawing-maps/</guid>
+      <description>With Pen&amp;amp;Paper Role Playing Games, maps always held some significance. This was especially when you were playing heroic fantasy. Now with holding the campaigns online, this has become even more important. So how to create a nice fantasy map? I need one (and quickly) for my session this afternoon.</description>
+    </item>
+    
+    <item>
+      <title>Day 15: Donating Blood during Corona times</title>
+      <link>https://masek0815.github.io/2020/04/day-15-donating-blood-during-corona-times/</link>
+      <pubDate>Sat, 04 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-15-donating-blood-during-corona-times/</guid>
+      <description>I started donating blood as a student. Unluckily I didn&amp;rsquo;t keep up with it after University until last year. Currently I try to be regular donor with my 10th donation coming up in six weeks.</description>
+    </item>
+    
+    <item>
+      <title>Day 14: Guest posts wanted</title>
+      <link>https://masek0815.github.io/2020/04/day-14-guest-posts-wanted/</link>
+      <pubDate>Fri, 03 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-14-guest-posts-wanted/</guid>
+      <description>The 100 Days Offensive is not intended to be a one man show. I sincerely invite my readers (should they exist) to jump in with guest posts.</description>
+    </item>
+    
+    <item>
+      <title>Day 13: Treasure Hunt 2101 (Short Story)</title>
+      <link>https://masek0815.github.io/2020/04/day-13-treasure-hunt-2101-short-story/</link>
+      <pubDate>Thu, 02 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-13-treasure-hunt-2101-short-story/</guid>
+      <description>&amp;lsquo;Are you sure we&amp;rsquo;re right here?&amp;rsquo; Rob asked as he unpacked the digger, &amp;lsquo;This looks like normal wasteland that has gotten too much Agent Yellow like everything around here.&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Day 12: How will society change?</title>
+      <link>https://masek0815.github.io/2020/04/day-12-how-will-society-change/</link>
+      <pubDate>Wed, 01 Apr 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/04/day-12-how-will-society-change/</guid>
+      <description>One point I spend a lot of thoughts on: What will be the effect of the Corona virus on the society after it is gone? How and what will change? Only once in my life I felt such a drastic change in my future and that was on September 11th 2001.</description>
+    </item>
+    
+    <item>
+      <title>Day 11: Do you work efficiently in the home office?</title>
+      <link>https://masek0815.github.io/2020/03/day-11-do-you-work-efficiently-in-the-home-office/</link>
+      <pubDate>Tue, 31 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-11-do-you-work-efficiently-in-the-home-office/</guid>
+      <description>Now that we all work from home: How efficient is the home office? Are we more or less productive? What are the main hurdles?</description>
+    </item>
+    
+    <item>
+      <title>Day 10: A house for Flip</title>
+      <link>https://masek0815.github.io/2020/03/day-10-a-house-for-flip/</link>
+      <pubDate>Mon, 30 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-10-a-house-for-flip/</guid>
+      <description>Though we just yesterday had our first real snow this winter, spring is approaching rapidly. The grass has started sprouting. So countermeasures have to be deployed</description>
+    </item>
+    
+    <item>
+      <title>Day 9: First round of Pen&amp;Paper RPG online</title>
+      <link>https://masek0815.github.io/2020/03/day-9-first-round-of-penpaper-rpg-online/</link>
+      <pubDate>Sun, 29 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-9-first-round-of-penpaper-rpg-online/</guid>
+      <description>I am part of a group that plays a pen&amp;amp;paper RPG together for 30+ years. We decided to not let small issues like the current Corona epidemic to come between us and our hobby. At the same time we want to keep the social distance. So we called for technology to the rescue.</description>
+    </item>
+    
+    <item>
+      <title>Day 8: Corona, Brittleness and Efficiency</title>
+      <link>https://masek0815.github.io/2020/03/day-8-corona-brittleness-and-efficiency/</link>
+      <pubDate>Sat, 28 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-8-corona-brittleness-and-efficiency/</guid>
+      <description>The last years have been focused on making the economy more efficient. But the corona crisis now shows us the downside of our efficiency. The economic systems in turn have become more brittle.</description>
+    </item>
+    
+    <item>
+      <title>Day 7: No post today</title>
+      <link>https://masek0815.github.io/2020/03/day-7-no-post-today/</link>
+      <pubDate>Fri, 27 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-7-no-post-today/</guid>
+      <description>I said &amp;lsquo;Accept no excuses&amp;rsquo; and here I am totally exhausted.</description>
+    </item>
+    
+    <item>
+      <title>Day 6: Others say &#39;I do home office&#39;</title>
+      <link>https://masek0815.github.io/2020/03/day-6-others-say-i-do-home-office/</link>
+      <pubDate>Thu, 26 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-6-others-say-i-do-home-office/</guid>
+      <description>But I say</description>
+    </item>
+    
+    <item>
+      <title>Day 5: Working from Home (Part 2: Challenges)</title>
+      <link>https://masek0815.github.io/2020/03/day-5-working-from-home-part-2-challenges/</link>
+      <pubDate>Wed, 25 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-5-working-from-home-part-2-challenges/</guid>
+      <description>Working from home has challenges and I think they are different for everyone.</description>
+    </item>
+    
+    <item>
+      <title>Day 4: The over-sized home IT (Part 1: Gaming rig)</title>
+      <link>https://masek0815.github.io/2020/03/day-4-the-over-sized-home-it-part-1-gaming-rig/</link>
+      <pubDate>Tue, 24 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-4-the-over-sized-home-it-part-1-gaming-rig/</guid>
+      <description>In the current crisis, I am lucky in several regards. First I am a technology hoarder. With unused stuff alone you could probably run a small company. On the second point I was just switching from one upstream technology (DSL) to the next (Cable). So when the crisis broke out, I postponed the cancellation of the first one. Counting the LTE backup, I now have three lifelines to the world. And last but not least, I enjoy tinkering with it.</description>
+    </item>
+    
+    <item>
+      <title>Day 3: Working from Home (Part 1: Video Conferences</title>
+      <link>https://masek0815.github.io/2020/03/day-3-working-from-home-part-1-video-conferences/</link>
+      <pubDate>Mon, 23 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-3-working-from-home-part-1-video-conferences/</guid>
+      <description>A major part of my daily work now consists of participating at video conferences. Tough most of you have participated in a few, I would still try to summarize the most important points from my perspective. If some parts of this text seem familiar, I borrowed heavily from @Isotopp.</description>
+    </item>
+    
+    <item>
+      <title>Day 2: Self-Maintenance (Part 1)</title>
+      <link>https://masek0815.github.io/2020/03/day-2-self-maintenance-part-1/</link>
+      <pubDate>Sun, 22 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-2-self-maintenance-part-1/</guid>
+      <description>Any offensive relies on the troops being in the shape for it. Especially during the coming weeks and months,  this will be a challenge. For one we are being more and more restricted in terms of movement and the psychological impact (at least on my side) has increased the intake of sweets.</description>
+    </item>
+    
+    <item>
+      <title>Day 1: The 100 Days Offensive</title>
+      <link>https://masek0815.github.io/2020/03/day-1-the-100-days-offensive/</link>
+      <pubDate>Sat, 21 Mar 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2020/03/day-1-the-100-days-offensive/</guid>
+      <description>I have to confess, we were caught flat-fooded. Though we received the first warnings in early January, we failed to prepare ourselves well enough. Now we are in the middle of a fight. And make no mistake, it is a real fight though the enemy is not visible.</description>
+    </item>
+    
+    <item>
+      <title>Review: Delta-v by Daniel Suarez (Book)</title>
+      <link>https://masek0815.github.io/2019/03/review-delta-v-by-daniel-suarez-book/</link>
+      <pubDate>Thu, 21 Mar 2019 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2019/03/review-delta-v-by-daniel-suarez-book/</guid>
+      <description>Excelling in one crisis might get you thrown right into the next one. And help is just 200+ millions of miles away. Your dried food requires waters that you harvest yourself from one of the most inhospitable environments known to humanity. And this is the good news section&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>My dear Terry</title>
+      <link>https://masek0815.github.io/2015/03/my-dear-terry/</link>
+      <pubDate>Fri, 13 Mar 2015 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2015/03/my-dear-terry/</guid>
+      <description>Very few people have had so much impact on my life as you did: my family, close friends, some teachers in school. But that&amp;rsquo;s it. Together with David Weber, you&amp;rsquo;re the reason I switched my primary reading language from German to English. That had a profound impact on my professional career in which a significant part of all communication is done in English. My patient&amp;rsquo;s provision includes a link to a video with you. But this is only the obvious stuff. The more subtle part is an integral part of my humour and ethics, that even I cannot tell where your influence starts or ends.</description>
+    </item>
+    
+    <item>
+      <title>Good, bad &amp; ugly - Your password</title>
+      <link>https://masek0815.github.io/2014/05/good-bad-ugly-your-password/</link>
+      <pubDate>Sat, 03 May 2014 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2014/05/good-bad-ugly-your-password/</guid>
+      <description>I have already been ranting about passwords several times. They might be there to protect your digital assets but are also a liability. There are a lot of articles about user passwords being easily guessable. Usually they blame the user and his/her stupidity, the inability to select and remember a password. I consider this plain wrong. Most of those errors are enforced by anachronistic and bad password policies.</description>
+    </item>
+    
+    <item>
+      <title>Review: Influx by Daniel Suarez (Book)</title>
+      <link>https://masek0815.github.io/2014/02/review-influx-by-daniel-suarez-book/</link>
+      <pubDate>Wed, 19 Feb 2014 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2014/02/review-influx-by-daniel-suarez-book/</guid>
+      <description>The nobel prize seems to be within the grasp of Jon Grady.  Being an academic dropout seems to be no longer a real obstacle since he just implemented his first prototype of a gravity reflection device. While the Wall Street bankers bankrolling his startup don&amp;rsquo;t seem too happy about being misled about the direction of his research, their expert confirms the validity of his claims.</description>
+    </item>
+    
+    <item>
+      <title>Review: Directive 51 by John Barnes (Book)</title>
+      <link>https://masek0815.github.io/2014/02/review-directive-51-by-john-barnes-book/</link>
+      <pubDate>Sat, 08 Feb 2014 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2014/02/review-directive-51-by-john-barnes-book/</guid>
+      <description>Directive 51 is the first book of the Daybreak series with currently three novels. The title is derived from from the &amp;lsquo;Executive Directive 51&amp;rsquo;, a Presidential Directive which claims power to execute procedures for continuity of the federal government in the event of a &amp;lsquo;catastrophic emergency&amp;rsquo;. This may give you a &amp;lsquo;slight hint&amp;rsquo; about the direction this book is going.</description>
+    </item>
+    
+    <item>
+      <title>Review: Bone Season by Smantha Shannon (Book)</title>
+      <link>https://masek0815.github.io/2014/01/review-bone-season-by-smantha-shannon-book/</link>
+      <pubDate>Wed, 22 Jan 2014 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2014/01/review-bone-season-by-smantha-shannon-book/</guid>
+      <description>I seem to be in for debut novels currently. Here is another one of a new author. At 22 years, Samantha Shannon is one of the youngest writers I have in my current portfolio (aka Kindle) and it does not require much scrying to see a lot of read-worthy books coming from her in the next years.</description>
+    </item>
+    
+    <item>
+      <title>Review: Ancillary Justice by Ann Lackie (Book)</title>
+      <link>https://masek0815.github.io/2014/01/review-ancillary-justice-by-ann-lackie-book/</link>
+      <pubDate>Sun, 19 Jan 2014 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2014/01/review-ancillary-justice-by-ann-lackie-book/</guid>
+      <description>Devilish complex main character: Check! Non-linear storytelling: Present and accounted for! World building: Massive! New author: Yes! A combination that would challenge any experienced writer makes up the stunning debut of Ann Leckie. She is an author on which you will want to keep an eye on.</description>
+    </item>
+    
+    <item>
+      <title>The German Science Fiction &amp; Fantasy Book Market - A Guide For Foreign Authors</title>
+      <link>https://masek0815.github.io/2014/01/the-german-science-fiction-fantasy-book-market-a-guide-for-foreign-authors/</link>
+      <pubDate>Sat, 11 Jan 2014 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2014/01/the-german-science-fiction-fantasy-book-market-a-guide-for-foreign-authors/</guid>
+      <description>The German book market seems to be very interesting at first glance. With a volume of 13 billion US$ in 2011, the average revenue per capita is nearly twice that of the US market. Books have a very long tradition here. But for foreign authors, especially Science Fiction &amp;amp; Fantasy authors, there are some, ahem, let&amp;rsquo;s call them &amp;lsquo;mitigating factors&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Blocking of Material on the Internet</title>
+      <link>https://masek0815.github.io/2013/12/blocking-of-material-on-the-internet/</link>
+      <pubDate>Tue, 24 Dec 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/12/blocking-of-material-on-the-internet/</guid>
+      <description>This article had been lost in Hyperspace for some time now, so I decided to revive it. As the current discussion about the porn filters in the UK shows, centralized approaches to blocking content don&amp;rsquo;t work. This here is my way of saying &amp;lsquo;Told you so&amp;rsquo;. Though many technologies have changed in those years and many of those site mentioned ceased to exist, the basic mechanisms and therefor the problems of central censorship are still the same. - Martin Seeger, 24th December 2013</description>
+    </item>
+    
+    <item>
+      <title>Murder on Fleet Street - Sherlock and the case of the dead Mr. Newspaper (short story)</title>
+      <link>https://masek0815.github.io/2013/12/murder-on-fleet-street-sherlock-and-the-case-of-the-dead-mr.-newspaper-short-story/</link>
+      <pubDate>Tue, 17 Dec 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/12/murder-on-fleet-street-sherlock-and-the-case-of-the-dead-mr.-newspaper-short-story/</guid>
+      <description>The scenery is somewhat antiquated, the furniture went out of style dozens of years ago, the lamp still has an old fashioned light bulb and the large desk features a typewriter. Half on the desk, covered with a white sheet, lies a body, slumped forward in his chair. In the background one can heard the fading sound of offset printing machines. Footsteps are approaching outside, two people seem to be arguing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Review: Nest Protect (Gadget)</title>
+      <link>https://masek0815.github.io/2013/12/review-nest-protect-gadget/</link>
+      <pubDate>Fri, 06 Dec 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/12/review-nest-protect-gadget/</guid>
+      <description>Smoke detectors have been an annoyance to me since from the first time we met. They go off without warning (I had dozens of false alarms already) and they tend to run out off battery typically at 2 a.m. in the morning. In later case, they give off that &amp;lsquo;click&amp;rsquo; sound every ten minutes which you (sleep deprived) can&amp;rsquo;t locate. That entices you to disable all of them. On the other hand, they are cheap life savers. Well, the Nest fixes the cheap price but maintains a lot of the existing problems.</description>
+    </item>
+    
+    <item>
+      <title>Review: The Daedalus Incident by Michael J. Martinez (Book)</title>
+      <link>https://masek0815.github.io/2013/11/review-the-daedalus-incident-by-michael-j.-martinez-book/</link>
+      <pubDate>Sat, 23 Nov 2013 13:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/11/review-the-daedalus-incident-by-michael-j.-martinez-book/</guid>
+      <description>Rule Britannia, Britannia rules the Space! It&amp;rsquo;s the 18th century and the Royal navy with their wooden hulls and iron men is the primary power in space. Second Lt. Thomas Weatherby sets out on the HMS Daedalus to blockade the rebellious colony on Ganymede who challenges the empire. Meanwhile in another dimension, Lt. Shaila Jain of the Joint Space Command stationed on Mars in the year 2132 has the first in a series of bad days when mysterious quakes threaten the geological surveys of a cave and the lucrative mining operation.</description>
+    </item>
+    
+    <item>
+      <title>Review: The Pebble Watch (Gadget)</title>
+      <link>https://masek0815.github.io/2013/11/review-the-pebble-watch-gadget/</link>
+      <pubDate>Wed, 20 Nov 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/11/review-the-pebble-watch-gadget/</guid>
+      <description>This watch could be a game changer like the iPhone was. But currently it isn&amp;rsquo;t and it may never come to it. If you look at it through the eyes of an engineer in the Internet area, opportunities for applications keep popping up in head every five minutes. Unluckily, they are currently still confined to that location.</description>
+    </item>
+    
+    <item>
+      <title>Review: Under the Empyrean Sky by Chuck Wendig (Book)</title>
+      <link>https://masek0815.github.io/2013/10/review-under-the-empyrean-sky-by-chuck-wendig-book/</link>
+      <pubDate>Mon, 28 Oct 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/10/review-under-the-empyrean-sky-by-chuck-wendig-book/</guid>
+      <description>Sometimes dystopia can introduce itself with a poetic picture. Imagine endless fields of corn, a blue sky with a warm sun. A hovering &amp;lsquo;ship&amp;rsquo; sails through the crop. On it are a few youngsters racing against another team. Seems idyllic, doesn&amp;rsquo;t it? But the illusion is soon dispelled.</description>
+    </item>
+    
+    <item>
+      <title>Review: The Veiled Isles Trilogy by Paula Brandon (Book)</title>
+      <link>https://masek0815.github.io/2013/10/review-the-veiled-isles-trilogy-by-paula-brandon-book/</link>
+      <pubDate>Thu, 24 Oct 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/10/review-the-veiled-isles-trilogy-by-paula-brandon-book/</guid>
+      <description>Paula Brandon is a pseudonym of Paula Volsky, one of my favourite fantasy authors. She entered my life in the form of a birthday present from Kris nearly two decades ago. Once I read it (a few years later), I started to soak up every book she wrote. Some of them were really hard to get by, but luckily at that time some obscure web site for books (this one) started to pop up and with it a good source for works out of print. But 2000, every available book was read and I began to wait for new release. I waited. I waited some more. I inquired publishers and even (then already out of style) UseNet groups. Finally, in 2008 I learned from a friend of her, that new books (Hurrah: a trilogy) was coming up. There were three more years to wait, but then the trilogy was published. Thankfully there were only small gaps in the release dates. But the books were well worth waiting for.</description>
+    </item>
+    
+    <item>
+      <title>Review: The new Kindle Paperwhite from 2013 (Gadget)</title>
+      <link>https://masek0815.github.io/2013/10/review-the-new-kindle-paperwhite-from-2013-gadget/</link>
+      <pubDate>Sat, 12 Oct 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/10/review-the-new-kindle-paperwhite-from-2013-gadget/</guid>
+      <description>How do you do binge reading without a proper eBook reader? You just don&amp;rsquo;t. Paper based binge reading would (unless you own an English 19th century manor with a library stretching for a complete wing or something like that) fill up your shelf space really quick Trust me, i tried. So i consider eBook readers to be an essential part of the trade. Since the first Kindle Paperwhite ended up with my SO, i used the release of the new edition to switch from my Kindle Touch to the new version.</description>
+    </item>
+    
+    <item>
+      <title>Review: Promise of Blood by Brian McClellan (Book)</title>
+      <link>https://masek0815.github.io/2013/10/review-promise-of-blood-by-brian-mcclellan-book/</link>
+      <pubDate>Wed, 09 Oct 2013 12:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/10/review-promise-of-blood-by-brian-mcclellan-book/</guid>
+      <description>This is the first part of the Powder Mage Trilogy, the other parts are still unpublished. So, since i expect the average reader of my blog to like this book, better be prepared for some yearning. But don&amp;rsquo;t be afraid, the next part will be out in February 2014 and two short stories are available to cope with the worst withdrawal symptoms.</description>
+    </item>
+    
+    <item>
+      <title> Review: This Town by Mark Leibovich (Book)</title>
+      <link>https://masek0815.github.io/2013/10/review-this-town-by-mark-leibovich-book/</link>
+      <pubDate>Mon, 07 Oct 2013 14:00:00 +0200</pubDate>
+      
+      <guid>https://masek0815.github.io/2013/10/review-this-town-by-mark-leibovich-book/</guid>
+      <description>The full title &amp;lsquo;This Town: Two Parties and a Funeral - Plus, Plenty of Valet Parking! - in America&amp;rsquo;s Gilded Capital&amp;rsquo; seems a bit long, but the parties and funerals are an essential part of it while valet parking is somewhat underrepresented. Never mind!</description>
     </item>
     
     <item>
       <title>About this blog</title>
       <link>https://masek0815.github.io/2013/10/about-this-blog/</link>
-      <pubDate>Thu, 17 Oct 2013 12:51:58 +0200</pubDate>
+      <pubDate>Mon, 07 Oct 2013 12:51:58 +0200</pubDate>
       
       <guid>https://masek0815.github.io/2013/10/about-this-blog/</guid>
-      <description>A few weeks back, I decided that I will write up some pieces about the books I read lately. At first I planned to put them on Google+. But I was not very happy about what could be done there in terms of formatting, overview or references to other reviews. So the decision came to start this blog, but I am not sure if the setup is correct yet.
-Do comments work?</description>
+      <description>In 2013, I decided that I would write up some pieces about the books I read. At first I planned to put them on Google+. But I was not very happy about what could be done there in terms of formatting, overview or references to other reviews. So the decision came to start this blog.</description>
     </item>
     
   </channel>
