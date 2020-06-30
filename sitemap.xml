@@ -3,21 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.literarily-starved.com/2020/06/day-101-buying-a-bicycle/</loc>
-    <lastmod>2020-06-29T20:00:00+02:00</lastmod>
+    <loc>https://blog.literarily-starved.com/2020/06/day-102-holding-hands/</loc>
+    <lastmod>2020-06-30T17:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://blog.literarily-starved.com/</loc>
-    <lastmod>2020-06-29T20:00:00+02:00</lastmod>
+    <lastmod>2020-06-30T17:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://blog.literarily-starved.com/posts/</loc>
+    <lastmod>2020-06-30T17:00:00+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.literarily-starved.com/2020/06/day-101-buying-a-bicycle/</loc>
     <lastmod>2020-06-29T20:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -47,13 +54,6 @@
   <url>
     <loc>https://blog.literarily-starved.com/2020/06/day-97-hugo/</loc>
     <lastmod>2020-06-25T18:27:01+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.literarily-starved.com/2020/06/holding-hands/</loc>
-    <lastmod>2020-06-25T12:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
