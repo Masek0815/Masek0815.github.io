@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Literarily Starved</title>
-    <link>https://masek0815.github.io/posts/</link>
+    <link>https://blog.literarily-starved.com/posts/</link>
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jun 2020 20:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://masek0815.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.literarily-starved.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Day 101: Buying a bicycle</title>
-      <link>https://masek0815.github.io/2020/06/day-101-buying-a-bicycle/</link>
+      <link>https://blog.literarily-starved.com/2020/06/day-101-buying-a-bicycle/</link>
       <pubDate>Mon, 29 Jun 2020 20:00:00 +0200</pubDate>
       
-      <guid>https://masek0815.github.io/2020/06/day-101-buying-a-bicycle/</guid>
+      <guid>https://blog.literarily-starved.com/2020/06/day-101-buying-a-bicycle/</guid>
       <description>Buying a bicycle seems to be more difficult than I previously though. Or at least it seems to be more difficult for someone like me.</description>
     </item>
     
     <item>
       <title>Day 100: The Offensive continues</title>
-      <link>https://masek0815.github.io/2020/06/day-100-the-offensive-continues/</link>
+      <link>https://blog.literarily-starved.com/2020/06/day-100-the-offensive-continues/</link>
       <pubDate>Sun, 28 Jun 2020 19:00:00 +0200</pubDate>
       
-      <guid>https://masek0815.github.io/2020/06/day-100-the-offensive-continues/</guid>
+      <guid>https://blog.literarily-starved.com/2020/06/day-100-the-offensive-continues/</guid>
       <description>100 days are over, but I am still in the home office. And if I read the signs and portents correctly, I also will be for quite some time coming. So I will continue my offensive here.</description>
     </item>
     
     <item>
       <title>Day 99: Migrating</title>
-      <link>https://masek0815.github.io/2020/06/day-99-migrating/</link>
+      <link>https://blog.literarily-starved.com/2020/06/day-99-migrating/</link>
       <pubDate>Sat, 27 Jun 2020 12:00:00 +0200</pubDate>
       
-      <guid>https://masek0815.github.io/2020/06/day-99-migrating/</guid>
+      <guid>https://blog.literarily-starved.com/2020/06/day-99-migrating/</guid>
       <description>Migration is in progress &amp;hellip;</description>
     </item>
     
     <item>
       <title>Day 98: Weekend</title>
-      <link>https://masek0815.github.io/2020/06/day-98-weekend/</link>
+      <link>https://blog.literarily-starved.com/2020/06/day-98-weekend/</link>
       <pubDate>Fri, 26 Jun 2020 12:00:00 +0200</pubDate>
       
-      <guid>https://masek0815.github.io/2020/06/day-98-weekend/</guid>
+      <guid>https://blog.literarily-starved.com/2020/06/day-98-weekend/</guid>
       <description>My plans: sleeping (a lot), moving my blog (away from Google) cooking something nice.</description>
     </item>
     
     <item>
       <title>Day 97: Hugo</title>
-      <link>https://masek0815.github.io/2020/06/day-97-hugo/</link>
+      <link>https://blog.literarily-starved.com/2020/06/day-97-hugo/</link>
       <pubDate>Thu, 25 Jun 2020 18:27:01 +0200</pubDate>
       
-      <guid>https://masek0815.github.io/2020/06/day-97-hugo/</guid>
+      <guid>https://blog.literarily-starved.com/2020/06/day-97-hugo/</guid>
       <description>It is decided: I will use &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo &lt;/a&gt;as content management system and deploy my blog as static web site.</description>
     </item>
     
