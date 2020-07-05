@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2020 17:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 12:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.literarily-starved.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Day 107: Blogging with Hugo (Part 1)</title>
+      <link>https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/</link>
+      <pubDate>Sun, 05 Jul 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/</guid>
+      <description>As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.</description>
+    </item>
     
     <item>
       <title>Day 102: Holding hands</title>
@@ -45,15 +54,6 @@
       
       <guid>https://blog.literarily-starved.com/2020/06/day-99-migrating/</guid>
       <description>Migration is in progress &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Day 98: Weekend</title>
-      <link>https://blog.literarily-starved.com/2020/06/day-98-weekend/</link>
-      <pubDate>Fri, 26 Jun 2020 12:00:00 +0200</pubDate>
-      
-      <guid>https://blog.literarily-starved.com/2020/06/day-98-weekend/</guid>
-      <description>My plans: sleeping (a lot), moving my blog (away from Google) cooking something nice.</description>
     </item>
     
   </channel>
