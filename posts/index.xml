@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2020 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 17:09:00 +0200</lastBuildDate>
     
 	<atom:link href="https://blog.literarily-starved.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Day 121: Technology Projection</title>
+      <link>https://blog.literarily-starved.com/2020/07/day-121-technology-projection/</link>
+      <pubDate>Sun, 19 Jul 2020 17:09:00 +0200</pubDate>
+      
+      <guid>https://blog.literarily-starved.com/2020/07/day-121-technology-projection/</guid>
+      <description>According to Wikipedia, &amp;lsquo;Power Projection&amp;rsquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&amp;rsquo;s power in international relations.  I think one can use the similar term &amp;lsquo;Technology Projection&amp;rsquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control.</description>
+    </item>
     
     <item>
       <title>Day 107: Blogging with Hugo (Part 1)</title>
@@ -45,15 +54,6 @@
       
       <guid>https://blog.literarily-starved.com/2020/06/day-100-the-offensive-continues/</guid>
       <description>100 days are over, but I am still in the home office. And if I read the signs and portents correctly, I also will be for quite some time coming. So I will continue my offensive here.</description>
-    </item>
-    
-    <item>
-      <title>Day 99: Migrating</title>
-      <link>https://blog.literarily-starved.com/2020/06/day-99-migrating/</link>
-      <pubDate>Sat, 27 Jun 2020 12:00:00 +0200</pubDate>
-      
-      <guid>https://blog.literarily-starved.com/2020/06/day-99-migrating/</guid>
-      <description>Migration is in progress &amp;hellip;</description>
     </item>
     
   </channel>

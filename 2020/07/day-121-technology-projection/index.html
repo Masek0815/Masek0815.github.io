@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Day 107: Blogging with Hugo (Part 1) | Literarily Starved</title>
+    <title>Day 121: Technology Projection | Literarily Starved</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.68.3" />
     
@@ -28,23 +28,23 @@
 
     
     
-    <meta property="og:title" content="Day 107: Blogging with Hugo (Part 1)" />
-<meta property="og:description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges." />
+    <meta property="og:title" content="Day 121: Technology Projection" />
+<meta property="og:description" content="According to Wikipedia, &lsquo;Power Projection&rsquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&rsquo;s power in international relations.  I think one can use the similar term &lsquo;Technology Projection&rsquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/" />
-<meta property="article:published_time" content="2020-07-05T12:00:00+02:00" />
-<meta property="article:modified_time" content="2020-07-05T12:00:00+02:00" />
-<meta itemprop="name" content="Day 107: Blogging with Hugo (Part 1)">
-<meta itemprop="description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.">
-<meta itemprop="datePublished" content="2020-07-05T12:00:00&#43;02:00" />
-<meta itemprop="dateModified" content="2020-07-05T12:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="1057">
+<meta property="og:url" content="https://blog.literarily-starved.com/2020/07/day-121-technology-projection/" />
+<meta property="article:published_time" content="2020-07-19T17:09:00+02:00" />
+<meta property="article:modified_time" content="2020-07-19T17:09:00+02:00" />
+<meta itemprop="name" content="Day 121: Technology Projection">
+<meta itemprop="description" content="According to Wikipedia, &lsquo;Power Projection&rsquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&rsquo;s power in international relations.  I think one can use the similar term &lsquo;Technology Projection&rsquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control.">
+<meta itemprop="datePublished" content="2020-07-19T17:09:00&#43;02:00" />
+<meta itemprop="dateModified" content="2020-07-19T17:09:00&#43;02:00" />
+<meta itemprop="wordCount" content="1280">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Day 107: Blogging with Hugo (Part 1)"/>
-<meta name="twitter:description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges."/>
+<meta name="twitter:title" content="Day 121: Technology Projection"/>
+<meta name="twitter:description" content="According to Wikipedia, &lsquo;Power Projection&rsquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&rsquo;s power in international relations.  I think one can use the similar term &lsquo;Technology Projection&rsquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control."/>
 
 	
   </head>
@@ -155,86 +155,51 @@
 
 
 
-      <h1 class="f1 athelas mt3 mb1">Day 107: Blogging with Hugo (Part 1)</h1>
+      <h1 class="f1 athelas mt3 mb1">Day 121: Technology Projection</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-07-05T12:00:00&#43;02:00">July 5, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2020-07-19T17:09:00&#43;02:00">July 19, 2020</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This article is part of <a href="https://blog.literarily-starved.com/2020/03/day-1-100-day-offensive.html">The 100 Days Offensive</a>. Go to <a href="/2020/06/day-102-holding-hands.html">Day 102</a> or <a href="/2020/07/day-121-technology-projection.html">Day 121</a>.</p>
-<p><strong>As already mentioned, I decided to migrate to <a href="https://gohugo.io/">Hugo</a> as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.</strong></p>
-<h2 id="requirements">Requirements</h2>
-<p>With my new blog I wanted to achieve several things:</p>
-<ol>
-<li>I wanted to leave Google and the <a href="https://www.blogger.com/about/?bpli=1">Blogger</a> platform behind. Initially I already to be free of Google at the end of last year, but the process takes longer than expected. I guess next week I will start to migrate away from Google Email.</li>
-<li>Another goal was to publish my blog as a collection of static HTML files. From the security perspective, this simplifies the challenge a lot. Database and Scripting engines require permanent updates and (as more complex tools) offer a lot of opportunity to do things wrong.</li>
-<li>If possible, I wanted to write my Blog in Markdown and with my (current favourite) editor <a href="https://typora.io/">Typora</a>.</li>
-<li>I would prefer the source files to be on a local directory or a share of my Windows 10 PC.</li>
-<li>The URLs of the original blog must continue to work after the migration.</li>
-</ol>
-<h2 id="system-setup">System Setup</h2>
-<p>In order to use Hugo on my Windows PC I could have used the Windows binary. But since I wanted to be able to script some processing (which I knew would happen at some point), I wanted to have the standard Unix tools (find, grep, sed) available. So the decision was to use the <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows Subsystem for Linux</a>. I used that as an excuse to switch to the Version 2.</p>
-<p>Little did I know that I created the first hurdle. As it turned out, I could <a href="https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/">install version 2</a> quite easily. But the upgrade with <code>wsl --set-version Ubuntu 2</code> would always give me the error message <strong>&ldquo;Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.&quot;</strong></p>
-<p>As I was already running VMware Workstation on my PC, I was completely sure that the virtualization was already enabled in the BIOS. As it turned out, this was not the case. It took me more than one hour to finally check the BIOS and it was not enabled. Unluckily entering the BIOS is quite a hassle for me as the PC and the monitor/keyboard are quite a way apart. So I use an USB extender that takes some times to initialize and often the boot sequence is already beyond the &ldquo;Press DEL to enter BIOS&rdquo;-phase. Luckily the &ldquo;<a href="https://store.hp.com/us/en/tech-takes/how-to-enter-bios-setup-windows-pcs">Method #2: Use Windows 10’s start menu</a>&rdquo; worked for me.</p>
-<p>As it turned out, that was not enough. I also needed to update my VMware Workstation to a new version (AFAIK at least version 15.5 is required).</p>
-<p>After that, the update to WSL2 worked and I could start my Linux shell. Recommendation at this point, use the new <a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab">Windows Terminal</a> instead of the default terminal. That gives you the ability to use tabs to separate multiple shells.</p>
-<p>The installation of Hugo itself on WSL2 is quite easy: <code>sudo apt-install hugo</code></p>
-<h2 id="preparing-the-environment">Preparing the environment</h2>
-<p>First you have to decide where you want to have your site. In my case I created a Folder called &ldquo;Hugo&rdquo; in the &ldquo;Documents&rdquo;-folder of my local Windows user.</p>
-<p>When you start your shell, this translates to <code>/mnt/c/Users/myuser/Documents/Hugo</code>, where &ldquo;myuser&rdquo; is your local Windows user name. On the shell I switch into that directory and execute the following commands:</p>
-<p><code>hugo new site Demo</code></p>
-<p>This creates a subdirectory &ldquo;Demo&rdquo; where your new site resided. Change into that subdirectory. For further reference I will call this directory now &ldquo;BASEDIR&rdquo;.</p>
-<p>Now it is time to get your first theme (visual template). I used the recommended <a href="https://themes.gohugo.io/gohugo-theme-ananke/">Ananke Theme</a>, which is a sensible choice. To install it used the commands:</p>
-<p><code>git init</code></p>
-<p><code>git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke</code></p>
-<p>You find the files in &ldquo;BASEDIR/themes/ananke&rdquo; and there is a &ldquo;README.md&rdquo; file in it for customization purposes.</p>
-<p>In order to create the content of your first post, in the BASEDIR you execute the command</p>
-<p><code>hugo new posts/my-first-post.md</code></p>
-<p>All the content goes to &ldquo;BASEDIR/content&rdquo;, so your post ends up in &ldquo;BASEDIR/content/posts/my-first-post.md&rdquo;.  Edit the file and make it look like:</p>
-<pre><code>---
-title: &quot;My First Post&quot;
-date: 2020-07-05T08:47:11+01:00
-draft: true
----
-
-Hello
-</code></pre><p>Back in the BASEDIR, now execute command:</p>
-<p><code>hugo server -D</code></p>
-<p>This starts a small web server at http://localhost:1313/ (if you did not change the default settings) where you can see your first site. Stopping the Server with Ctrl-C and starting it again rebuilds your site if you changed or added anything.</p>
-<p>In order to create more content, you just add files to the directory &ldquo;&ldquo;BASEDIR/content/posts&rdquo;. I added that directory to the quick access list of the Windows Explorer. But (by default) Windows does not allow to create new Markdown files though the context menu. But since that would simplify my content pipeline, I investigated on how to create such an option.</p>
-<p><strong>Step 1:</strong> Create the file &ldquo;c:\WINDOWS\ShellNew\template.md&rdquo; (you may need to create the directory as well, both requires admin privileges with Windows 10).</p>
-<p><strong>Step 2:</strong> Put the following content in your Markdown-Template (you may change this to fit your needs):</p>
-<pre><code>---
-title: &quot;&quot;
-date: 2020-06-25T12:00:00+02:00
-summary: &quot;&quot;
-draft: true
-disable_share: true
-aliases:
-  - &quot;&quot;
-
----
-
-**Summary**
-
-Text
-</code></pre><p>In this template I already used some features. The &ldquo;title&rdquo; has to contain the headline of your post. Into &ldquo;summary&rdquo; I put the short text that is shown on the main page for the article. With &ldquo;alias&rdquo; I can specify an additional URL (e.g. &ldquo;/about.html&rdquo;) that can be used to reach this article. I used that feature to maintain the URLs of my old Blog. <strong>Important:</strong> When you create your files from a template, you have to adjust &ldquo;date&rdquo; by hand. Otherwise all your posts are shown with the date from your template file. I&rsquo;m looking for a method to fix that.</p>
-<p><strong>Step 3:</strong> Create a short text file with the following content:</p>
-<pre><code>### Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\.md]
-@=&quot;markdown&quot;
-
-[HKEY_CLASSES_ROOT\.md\ShellNew]
-&quot;NullFile&quot;=&quot;&quot;
-&quot;FileName&quot;=&quot;C:\Windows\ShellNew\template.md&quot;
-
-[HKEY_CLASSES_ROOT\markdown]
-@=&quot;New Blog Post&quot;
-</code></pre><p>And <a href="https://www.informit.com/articles/article.aspx?p=131235&amp;seqNum=7">import that file into the Windows Registry Editor</a> (regedit.exe)</p>
-<p>After a reboot you should now have &ldquo;New Blog Post&rdquo; as an option when you select &ldquo;New&rdquo; from the context menu in the Windows Explorer and you have finished the basic setup. In the next post I will explain the site parameters and the deployment.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This article is part of <a href="https://blog.literarily-starved.com/2020/03/day-1-100-day-offensive.html">The 100 Days Offensive</a>. Go to Day <a href="/2020/07/day-107-blogging-with-hugo.html">107</a>.</p>
+<p><strong>According to Wikipedia, &ldquo;Power Projection&rdquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&rsquo;s power in international relations.  I think one can use the similar term &ldquo;Technology Projection&rdquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control.</strong></p>
+<h2 id="what-is-power-projection-and-why-is-it-a-useful-term">What is Power Projection and why is it a useful term?</h2>
+<p>The epitome of Power Projection is the aircraft supercarrier of  the U.S. Navy:</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/USS_Nimitz_in_Victoria_Canada_036.jpg" alt="Image of USS Nimitz"></p>
+<p>Why are those aircraft supercarriers such an excellent tool to project power? The Nimitz carries just about 90 planes and helicopters. Even compared to third rate powers that does not sound like much. Those have typically 100-300 aircraft in operation. That seems ample to deal with one or two carriers.</p>
+<p>So what would happen if the US Navy would threaten the west coast of a potential adversary? You counter this with your air force. Unluckily that is dispersed all over your territory. At the threatened coast you have just 25% of your planes. No problem: just fly the rest there! Those planes are fast and with the coast just 1.000-2.000km, they should arrive in 1-2 hours.</p>
+<p>At that point, your problems just start. First, you need airfields where those planes can land and take off. Those airfields have to been built beforehand, while they are kind if built-in in the carrier. Those planes of yours are fuel-hogs. So hopefully your airfields have a sufficient supply stocked. By the way, those fuel storages are excellent targets, so you hopefully defend them as well as the US Navy defends their carrier.</p>
+<p>Many people may not know how delicate those combat planes are. Somethings always is broken with them. As a rule of thumb, it takes two hours of maintenance for one hour of flight.  So you need to ship all your maintenance technicians to the same place your planes will land. Per happenstance, the carrier has them already on board. Those also have a huge stash of spare parts traveling with them which you have to get to your coast as well.</p>
+<p>If you have your military logistics in excellent shape and good planners, you might achieve the amassing of your air force within one or two weeks. By that time the target on your coast may already be a smoldering ruin and the carrier back in Hawaii with its crew partying at the beach.</p>
+<p>So &ldquo;Power Projection&rdquo; not just describes the pure amount of power itself but also the logistical ability to bring it to bear at nearly any place in a very short amount of time.</p>
+<h2 id="defining-technology-projection">Defining &ldquo;Technology Projection&rdquo;</h2>
+<p>Any company that has been on the receiving side of &ldquo;bleeding edge technology&rdquo; can probably predict what is coming. If you ever have, you probably can sympathize a lot with the poor commander of the third rate air power in the example above.</p>
+<p>Your company just deployed a brand new technology to your west coast data center. You expect to deliver your services in higher quality, with more speed and fewer engineers than before.  The technology works, you have run a detailed proof-of-concept in the vendors&rsquo; lab. There are rough edges (it&rsquo;s not called bleeding edge by accident), but you planned with ample reserves in terms of time and material to deal with them.</p>
+<p>But suddenly you find yourself with a spaghetti plate of problems:</p>
+<ul>
+<li>The time from the vendor consultants is used up by dealing with unexpected problems and not (as originally planned) for knowledge transfer.</li>
+<li>As the technology is new, consultants are only available from the vendor (in limited quantity and at high prices), there is no external market for operative capacity.</li>
+<li>Spare parts are not stocked, the logistics process is just coming up and there is no 3rd party equipment as an alternative.</li>
+<li>Google searches on your most pressing topics come up mysteriously empty.</li>
+<li>Your supplier networks struggle with the same problems as you do to come up to speed.</li>
+<li>A critical feature for you is just coming in the next release and the timeline for that is constantly slipping away.</li>
+<li>To get things working you setup an endless chain of workarounds. The technical debt is growing at a rate that makes the US federal budget envious.</li>
+</ul>
+<p>You end up &ldquo;over budget and out of time&rdquo; and feel like a miserable failure. You know that the technology is working, you&rsquo;ve seen it first hand. So the problem must be &ldquo;you&rdquo;.</p>
+<p>But was failed was the &ldquo;Technology Projection&rdquo; of the vendor. Like with the example above, the nice shiny planes were there, but without logistics to sustain them. And it is practically impossible for you as a customer to provide such logistics. Companies like Amazon, Apple, or Google can do that and that is why those succeed even with such projects. But the average company can not. They have to rely on the vendor to make sure the logistics are there.</p>
+<p><strong>So &ldquo;Technology Projection&rdquo; of a vendor is the ability to get their highest possible level of technology working in your environment with your and your usual supplier&rsquo;s personnel without them holding hands a very step.</strong></p>
+<h2 id="the-difference-to-ability-to-execute">The difference to &ldquo;Ability to Execute&rdquo;</h2>
+<p>Preceding decisions for new technology often a Gartner magic quadrant is being drawn on. They not only show who may have a complete vision for the technology but also which companies have the &ldquo;ability to execute&rdquo;. Surely a company with such an ability must be capable of the &ldquo;Technology Projection&rdquo;. At least it sounds a lot like what I propose.</p>
+<p>But if you look at the <a href="https://www.gartner.com/en/documents/3956304/how-markets-and-vendors-are-evaluated-in-gartner-magic-q">definition by Gartner themselves</a>, you see the following: &ldquo;<strong>Ability to Execute:</strong> Summarizes factors such as the vendor’s financial viability, market responsiveness, product development, sales channels, and customer base.&rdquo;</p>
+<p>If I were joking, the ability to execute describes the chances of a vendor to survive the introduction of new technology rather than the chances of their customers surviving using them.</p>
+<p>The ability to execute focuses on the success of the vendor, the technology projection rather focuses on the successful project for the customer. Those two are no independent vectors. No vendor will prosper with a continuous failure of customer projects. But especially during technology transitions, the technology projection is the more important property.</p>
+<p>The problem is compounded by a certain disincentivization for technology projection. For a perfect scenario in that regard, there must be ample and redundant resources that are required for the project. This is tied to a loss of control and margin for the vendor. So a full technology projection may not be in their short term financial interest.</p>
+<p>The high margins of companies like Apple have poisoned a lot of minds. Those only see how Apple achieved high profits by maintaining very tight control over every aspect of their technology.  But they fail to notice the enormous logistics Apple delivered to make up for the lack of 3rd parties. I see a lot of companies who are trying to imitate Apple failing in that regard (and sometimes they don&rsquo;t even try). This has brought the industry a decline in technology projection in the last years. The ongoing Corona crisis has only amplified the visibility of such failures, not caused them.</p>
+<p>So if your company shall prosper during the next technology change, please look for &ldquo;technology projection&rdquo; in vendors.</p>
+<hr>
+<p>P.S. I do not know if the text is ready yet. There are a lot of facets to the topic. But I have to post it to stop thinking too much about that topic.</p>
 <ul class="pa0">
   
 </ul>
