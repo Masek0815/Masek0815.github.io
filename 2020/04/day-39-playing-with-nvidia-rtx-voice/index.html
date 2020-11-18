@@ -38,7 +38,7 @@
 <meta itemprop="description" content="As previously said, I want to play with NVIDIA RTX Voice.">
 <meta itemprop="datePublished" content="2020-04-28T12:00:00&#43;02:00" />
 <meta itemprop="dateModified" content="2020-04-28T12:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="136">
+<meta itemprop="wordCount" content="142">
 
 
 
@@ -168,10 +168,10 @@
 <p>Problem: I only have a GeForce GTX 1650 GPU. That is far below the <a href="https://www.nvidia.com/en-us/geforce/guides/nvidia-rtx-voice-setup-guide/#Requirements">spec</a>. When I try to install the software, it just refuses to install:</p>
 <p><a href="https://i.ibb.co/jvVy5WF/nvidia1.png"><img src="https://i.ibb.co/jvVy5WF/nvidia1.png" alt="img"></a></p>
 <p>But there is an easy workaround. After receiving the error message go to the directory &ldquo;C:\Temp\NVRTXVoice\NvAFX&rdquo; and locate the file &ldquo;RTXVoice.nvi&rdquo; and open it with a text editor. Then remove the following section:</p>
-<p><strong><!-- raw HTML omitted --></strong>
-<strong><!-- raw HTML omitted --></strong>
-<strong><!-- raw HTML omitted --></strong></p>
-<p>Save the file and run the Installer from the &ldquo;C:\Temp\NVRTXVoice&rdquo;-Directory. It will install right away. When you see the following application, you know it succeeded:</p>
+<pre><code>&lt;constraints&gt;
+&lt;property name=&quot;Feature.RTXVoice&quot; level=&quot;silent&quot; text=&quot;${{InstallBlockedMessage}}&quot;/&gt;
+&lt;/constraints&gt;
+</code></pre><p>Save the file and run the Installer from the &ldquo;C:\Temp\NVRTXVoice&rdquo;-Directory. It will install right away. When you see the following application, you know it succeeded:</p>
 <p><a href="https://i.ibb.co/6ZZZnkj/nvidia.png"><img src="https://i.ibb.co/6ZZZnkj/nvidia.png" alt="img"></a></p>
 <p>Now you also find a new microphone you can use:</p>
 <p><a href="https://i.ibb.co/9Wzp1f3/nvidia3.png"><img src="https://i.ibb.co/9Wzp1f3/nvidia3.png" alt="img"></a></p>
