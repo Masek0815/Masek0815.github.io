@@ -4,11 +4,8 @@
     <title>Categories on Literarily Starved</title>
     <link>https://blog.literarily-starved.com/categories/</link>
     <description>Recent content in Categories on Literarily Starved</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://blog.literarily-starved.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://blog.literarily-starved.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

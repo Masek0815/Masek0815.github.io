@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Day 107: Blogging with Hugo (Part 1) | Literarily Starved</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.147.7">
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -28,26 +28,25 @@
 
     
     
-    <meta property="og:title" content="Day 107: Blogging with Hugo (Part 1)" />
-<meta property="og:description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/" />
-<meta property="article:published_time" content="2020-07-05T12:00:00+02:00" />
-<meta property="article:modified_time" content="2020-07-05T12:00:00+02:00" />
-<meta itemprop="name" content="Day 107: Blogging with Hugo (Part 1)">
-<meta itemprop="description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.">
-<meta itemprop="datePublished" content="2020-07-05T12:00:00&#43;02:00" />
-<meta itemprop="dateModified" content="2020-07-05T12:00:00&#43;02:00" />
-<meta itemprop="wordCount" content="1057">
+    <meta property="og:url" content="http://localhost:1313/2020/07/day-107-blogging-with-hugo-part-1/">
+  <meta property="og:site_name" content="Literarily Starved">
+  <meta property="og:title" content="Day 107: Blogging with Hugo (Part 1)">
+  <meta property="og:description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-07-05T12:00:00+02:00">
+    <meta property="article:modified_time" content="2020-07-05T12:00:00+02:00">
 
-
-
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Day 107: Blogging with Hugo (Part 1)"/>
-<meta name="twitter:description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges."/>
-
-	
-  </head>
+  <meta itemprop="name" content="Day 107: Blogging with Hugo (Part 1)">
+  <meta itemprop="description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.">
+  <meta itemprop="datePublished" content="2020-07-05T12:00:00+02:00">
+  <meta itemprop="dateModified" content="2020-07-05T12:00:00+02:00">
+  <meta itemprop="wordCount" content="1057">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Day 107: Blogging with Hugo (Part 1)">
+  <meta name="twitter:description" content="As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.">
+</head>
 
   <body class="ma0 avenir bg-near-white">
 
@@ -89,6 +88,12 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="/index.xml" title="RSS page">
               RSS
             </a>
@@ -101,13 +106,6 @@
 
 
 
-<a href="https://pluspora.com/people/72ea5e20ad6601364692005056268def" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
 
 
 
@@ -116,8 +114,7 @@
 
 
 
-
-<a href="https://octodon.social/web/accounts/20923" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
   <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 <path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
@@ -176,7 +173,7 @@
 </ol>
 <h2 id="system-setup">System Setup</h2>
 <p>In order to use Hugo on my Windows PC I could have used the Windows binary. But since I wanted to be able to script some processing (which I knew would happen at some point), I wanted to have the standard Unix tools (find, grep, sed) available. So the decision was to use the <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows Subsystem for Linux</a>. I used that as an excuse to switch to the Version 2.</p>
-<p>Little did I know that I created the first hurdle. As it turned out, I could <a href="https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/">install version 2</a> quite easily. But the upgrade with <code>wsl --set-version Ubuntu 2</code> would always give me the error message <strong>&ldquo;Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.&quot;</strong></p>
+<p>Little did I know that I created the first hurdle. As it turned out, I could <a href="https://www.thomasmaurer.ch/2019/06/install-wsl-2-on-windows-10/">install version 2</a> quite easily. But the upgrade with <code>wsl --set-version Ubuntu 2</code> would always give me the error message <strong>&ldquo;Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.&rdquo;</strong></p>
 <p>As I was already running VMware Workstation on my PC, I was completely sure that the virtualization was already enabled in the BIOS. As it turned out, this was not the case. It took me more than one hour to finally check the BIOS and it was not enabled. Unluckily entering the BIOS is quite a hassle for me as the PC and the monitor/keyboard are quite a way apart. So I use an USB extender that takes some times to initialize and often the boot sequence is already beyond the &ldquo;Press DEL to enter BIOS&rdquo;-phase. Luckily the &ldquo;<a href="https://store.hp.com/us/en/tech-takes/how-to-enter-bios-setup-windows-pcs">Method #2: Use Windows 10’s start menu</a>&rdquo; worked for me.</p>
 <p>As it turned out, that was not enough. I also needed to update my VMware Workstation to a new version (AFAIK at least version 15.5 is required).</p>
 <p>After that, the update to WSL2 worked and I could start my Linux shell. Recommendation at this point, use the new <a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab">Windows Terminal</a> instead of the default terminal. That gives you the ability to use tabs to separate multiple shells.</p>
@@ -193,8 +190,8 @@
 <p>In order to create the content of your first post, in the BASEDIR you execute the command</p>
 <p><code>hugo new posts/my-first-post.md</code></p>
 <p>All the content goes to &ldquo;BASEDIR/content&rdquo;, so your post ends up in &ldquo;BASEDIR/content/posts/my-first-post.md&rdquo;.  Edit the file and make it look like:</p>
-<pre><code>---
-title: &quot;My First Post&quot;
+<pre tabindex="0"><code>---
+title: &#34;My First Post&#34;
 date: 2020-07-05T08:47:11+01:00
 draft: true
 ---
@@ -206,14 +203,14 @@ Hello
 <p>In order to create more content, you just add files to the directory &ldquo;&ldquo;BASEDIR/content/posts&rdquo;. I added that directory to the quick access list of the Windows Explorer. But (by default) Windows does not allow to create new Markdown files though the context menu. But since that would simplify my content pipeline, I investigated on how to create such an option.</p>
 <p><strong>Step 1:</strong> Create the file &ldquo;c:\WINDOWS\ShellNew\template.md&rdquo; (you may need to create the directory as well, both requires admin privileges with Windows 10).</p>
 <p><strong>Step 2:</strong> Put the following content in your Markdown-Template (you may change this to fit your needs):</p>
-<pre><code>---
-title: &quot;&quot;
+<pre tabindex="0"><code>---
+title: &#34;&#34;
 date: 2020-06-25T12:00:00+02:00
-summary: &quot;&quot;
+summary: &#34;&#34;
 draft: true
 disable_share: true
 aliases:
-  - &quot;&quot;
+  - &#34;&#34;
 
 ---
 
@@ -222,24 +219,23 @@ aliases:
 Text
 </code></pre><p>In this template I already used some features. The &ldquo;title&rdquo; has to contain the headline of your post. Into &ldquo;summary&rdquo; I put the short text that is shown on the main page for the article. With &ldquo;alias&rdquo; I can specify an additional URL (e.g. &ldquo;/about.html&rdquo;) that can be used to reach this article. I used that feature to maintain the URLs of my old Blog. <strong>Important:</strong> When you create your files from a template, you have to adjust &ldquo;date&rdquo; by hand. Otherwise all your posts are shown with the date from your template file. I&rsquo;m looking for a method to fix that.</p>
 <p><strong>Step 3:</strong> Create a short text file with the following content:</p>
-<pre><code>### Windows Registry Editor Version 5.00
+<pre tabindex="0"><code>### Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\.md]
-@=&quot;markdown&quot;
+@=&#34;markdown&#34;
 
 [HKEY_CLASSES_ROOT\.md\ShellNew]
-&quot;NullFile&quot;=&quot;&quot;
-&quot;FileName&quot;=&quot;C:\Windows\ShellNew\template.md&quot;
+&#34;NullFile&#34;=&#34;&#34;
+&#34;FileName&#34;=&#34;C:\Windows\ShellNew\template.md&#34;
 
 [HKEY_CLASSES_ROOT\markdown]
-@=&quot;New Blog Post&quot;
+@=&#34;New Blog Post&#34;
 </code></pre><p>And <a href="https://www.informit.com/articles/article.aspx?p=131235&amp;seqNum=7">import that file into the Windows Registry Editor</a> (regedit.exe)</p>
 <p>After a reboot you should now have &ldquo;New Blog Post&rdquo; as an option when you select &ldquo;New&rdquo; from the context menu in the Windows Explorer and you have finished the basic setup. In the next post I will explain the site parameters and the deployment.</p>
 <ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
-      
       
       </div>
     </div>
@@ -256,21 +252,14 @@ Text
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://blog.literarily-starved.com/" >
-    &copy;  Literarily Starved 2020 
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  Literarily Starved 2025 
   </a>
     <div>
 
 
 
 
-<a href="https://pluspora.com/people/72ea5e20ad6601364692005056268def" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
 
 
 
@@ -279,8 +268,7 @@ Text
 
 
 
-
-<a href="https://octodon.social/web/accounts/20923" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
   <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 <path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
