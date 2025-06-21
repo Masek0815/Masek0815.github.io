@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>PostMortem: Assumed DOJ Montana Leak of Phone Dumps | Literarily Starved</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.147.8">
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/icons8-hand-cursor-24.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:url" content="https://blog.literarily-starved.com/2025/06/postmortem-assumed-doj-montana-leak-of-phone-dumps/">
+  <meta property="og:site_name" content="Literarily Starved">
+  <meta property="og:title" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
+  <meta property="og:description" content="The last week I spent a lot of time on closing a serious leak of confidential information from what I assume to be the DOJ Montana. This is my PostMortem on the incident.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-21T15:43:00+02:00">
+    <meta property="article:modified_time" content="2025-06-21T15:43:00+02:00">
+
+  <meta itemprop="name" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
+  <meta itemprop="description" content="The last week I spent a lot of time on closing a serious leak of confidential information from what I assume to be the DOJ Montana. This is my PostMortem on the incident.">
+  <meta itemprop="datePublished" content="2025-06-21T15:43:00+02:00">
+  <meta itemprop="dateModified" content="2025-06-21T15:43:00+02:00">
+  <meta itemprop="wordCount" content="1243">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
+  <meta name="twitter:description" content="The last week I spent a lot of time on closing a serious leak of confidential information from what I assume to be the DOJ Montana. This is my PostMortem on the incident.">
+</head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Literarily Starved
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about.html" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact.html" title="Contact/Author page">
+              Contact/Author
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/legal.html" title="Legal/Disclaimer page">
+              Legal/Disclaimer
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/index.xml" title="RSS page">
+              RSS
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+      <h1 class="f1 athelas mt3 mb1">PostMortem: Assumed DOJ Montana Leak of Phone Dumps</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-06-21T15:43:00&#43;02:00">June 21, 2025</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="type-of-leak">Type of leak</h3>
+<p>Highly confidential information on a public SMB share without authentication</p>
+<h3 id="threats-from-the-leak">Threats from the leak</h3>
+<p>I see the following threats:</p>
+<ul>
+<li>Integrity and Confidentiality of investigations into serious crimes compromised</li>
+<li>Privacy of U.S. citizens compromised (very likely to contain most intimate data)</li>
+<li>Providing 3rd parties hostile to the U.S. with blackmail material</li>
+</ul>
+<h3 id="timeline">Timeline</h3>
+<ul>
+<li>
+<p>May 14th 2025: Scanner of Security Researcher flags a public SMB share for inspection (leak open at latest at this date)</p>
+<ul>
+<li>IP addresses involved: 216.220.10.217 and 216.220.10.222</li>
+</ul>
+</li>
+<li>
+<p>June 5th 2025: Security Researcher analyses the SMB share and discovers phone dumpy created with Graykey.  Some data is mere hours old, therefore this is a live leak.</p>
+</li>
+<li>
+<p>In between: File names show that some investigations are tied to child abuse as directories contain &ldquo;CSAM&rdquo; as part of the directory names.</p>
+<ul>
+<li>Remark: Usually investigations are identified by three parameters in thge file name: type of crime, location and some keyword (optional). In case of major crimes, using those identifiers one could easily identify those crime through press reports.</li>
+<li>One directory name seemed to indicate the dump to be done from a police officers phone who comitted suicide.</li>
+</ul>
+</li>
+<li>
+<p>June 12th 2025: As the Security Researcher could not identify a clear owner and previous contacts to CISA and FBI didn&rsquo;t produce any reply, he contacts me and asks for support. I receive as supporting material:</p>
+<ul>
+<li>One extraction report by Graykey for &ldquo;Policy Violation&rdquo; investigation</li>
+<li>List of file names in the leak</li>
+</ul>
+</li>
+<li>
+<p>June 12th 2025 06:42 UTC: Asking friends in my environment for contacts in the U.S. to help with this leak.</p>
+</li>
+<li>
+<p>June 12th 2025 ~19:00 UTC: Start discussing the leak with journalists in the U.S. Due to the CSAM topic, there is great reluctance to engage.</p>
+</li>
+<li>
+<p>June 13th 2025, 19:20 UTC: From the extraction report I assume that this investigation is done by the Cascade County Police Department. I attempt to contact Sheriff Jesse Slaughter him by: mobile (spoke on his voice box), text message (iMessage) and email. As of today there is no answer.</p>
+</li>
+<li>
+<p>June 17th 2025, 07:22 UTC: A second security researcher informs the Bozeman PD about one of their investigations to be in the leak</p>
+</li>
+<li>
+<p>June 17th 2025: Second security researcher also reaches out to the former Attorney General and former Governor of Montana Steve Bullock via LinkedIn to help with the leak. As of today there is no answer.</p>
+</li>
+<li>
+<p>June 17th 2025, 08:47 UTC: Bozeman PD reaches out to the second security researcher</p>
+</li>
+<li>
+<p>June 17th 2025, 09:10 UTC: My initial post on Mastodon (<a href="https://infosec.exchange/@masek/114697924639525296">https://infosec.exchange/@masek/114697924639525296</a>) asking for help</p>
+</li>
+<li>
+<p>June 17th 2025, 11:36 UTC: On recommendation received, I contacted the Attorney General of Montana by Email. As of today there is no answer.</p>
+</li>
+<li>
+<p>June 17th 2025 12:46 UTC: Former FBI employee offers to create a contact.</p>
+</li>
+<li>
+<p>June 17th 2025, 16:20 UTC: Contact with employees of the software vendor (came through the SM post above). I provide them with serial# from the extraction report and additional information in the next 30min. They say they identified the owner of the license and will attempt to contact them.</p>
+</li>
+<li>
+<p>June 17th 2025, 17:21 UTC: On recommendation received, I contacted the County Attorney of Lewis and Clark Counry. As of today there is no answer.</p>
+</li>
+<li>
+<p>June 17th 2025, ~20:00 UTC: Initial two-way contact with FBI</p>
+</li>
+<li>
+<p>June 17th 2025, ~20:00 UTC: Leak is closed (according to my information the communication chain through the vendor and Bozeman PD reached the lab at pretty the same time)</p>
+</li>
+<li>
+<p>June 18th 2025 between 08:42 and 16:11 UTC: Further communication with the FBI</p>
+</li>
+</ul>
+<h3 id="analysis">Analysis</h3>
+<p>This is not a complete failure analysis. This are only my observations. A full detailed analysis is most likely to be even more shocking.</p>
+<p>Failures:</p>
+<ul>
+<li>The PC with that kind information should never have been &ldquo;internet facing&rdquo; (architecture mistake)</li>
+<li>The informations do not belong on any file share (organisational mistake)</li>
+<li>Shares should never allow unauthenticated access (configuration mistake)</li>
+<li>The information should never have been stored unencrypted  (lack of data security)</li>
+<li>Incoming SMB traffic should never be allowed to such a network (firewall policy mistake).</li>
+<li>Any such network should include a monitoring of the external attack surface that could easily identify such a leak (lack of posture management, lack of attack surface management).</li>
+<li>It was out of scope for our involvement, but is very likely that the systems could have been used to compromise any attached network</li>
+<li><strong>SUMMARY:</strong> A complete and utter failure of IT-Security on the technical and organisational level for that lab</li>
+</ul>
+<h3 id="impact">Impact</h3>
+<p>It can be safely assumed (due to duration and easiness to discover) that all data on those shares is now in the hands of inttelligence services with non-friendly attitude towards the United States of America (e.g. Russia, China)</p>
+<h3 id="acknowledgments">Acknowledgments</h3>
+<p>The greatest thanks belong to JayeLTee, who discovered the leak, clearly recognised the severity and started the chain of events that led to the closure of the leak.</p>
+<p>Special thanks to &ldquo;Dissent Doe&rdquo; of DataBreaches.net for reaching out to the Bozeman Police Department, who responded promptly by calling her to get IP addresses and details so they could investigate and follow up. They made contact with the state lab, who notified the police that they had just heard from the vendor and had unplugged everything while they investigated.</p>
+<p>Thanks to the FBI and Bozeman PD for the prompt and professional contact. Beside them, no official that was contacted reached out.</p>
+<p>I also wish to thank (in alphabetical order) Abraham, Andy, Ben, Cody, Dhruv, Emma, Frank, Harlo, Jeff, Jerry, JollyOrc, Judie, Royce, Russ and Rysiek for providing assistance. If I omitted someone, I apologise for the oversight. The communication turned into a frenzy on June 17th and some may have escaped the analysis for my PostMortem.</p>
+<h3 id="closin-remarks">Closin Remarks</h3>
+<p><strong>It is clearly necessary that we have at least one public contact in each country that investigates and closes data leaks reported to them. The effort to close even the worst leaks is unbearable and currently rests on the shoulders of security researchers and their supporting environment.</strong></p>
+<p>Time spent on this leak from my side (without the time for this report) is 12+ hours. My best estimate on the effort of all people involved closing this leak would be in the multiple hundreds of hours. The amount of time spent by the person responsible for the leaking system on security issues: None.</p>
+<p>I assume the the leak is somehow tied to the DOJ Montana. This is not 100% sure, but i received multiple indicators that they are closely connected the leak.</p>
+<p>There were more attempts to reach official contacts than documented here in the PostMortem. The list only includes those I could pinpoint with a reasonable degree of certainty.</p>
+<p>I will not answer questions on how the forensics software works. This is out of scope for me. If you want to keep your phone safe: make it stay in the BFU state most of the time, choose a long and complex PIN, avoid cloud backups and do not install tracking apps.</p>
+<p>I do not know if the share was writeable for everyone. This is also out of scope. Therefore I cannot say how difficult it would have been to manipulate an investigation. But my guess would be, that at least for a skilled atacker this would seem quite possible.</p>
+<p>Purpose of the PostMortem is to provide an opportunity to learn for the affected party and those in danger of making similar mistakes. Futhermore I feel responsible to give all the people involved some closure.</p>
+<p>For comments, <a href="https://infosec.exchange/@masek/114721620930871030">please use Mastodon</a>.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://blog.literarily-starved.com/" >
+    &copy;  Literarily Starved 2025 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

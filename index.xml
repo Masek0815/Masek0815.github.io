@@ -6,8 +6,15 @@
     <description>Recent content on Literarily Starved</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 20:27:58 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 15:43:00 +0200</lastBuildDate>
     <atom:link href="https://blog.literarily-starved.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PostMortem: Assumed DOJ Montana Leak of Phone Dumps</title>
+      <link>https://blog.literarily-starved.com/2025/06/postmortem-assumed-doj-montana-leak-of-phone-dumps/</link>
+      <pubDate>Sat, 21 Jun 2025 15:43:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2025/06/postmortem-assumed-doj-montana-leak-of-phone-dumps/</guid>
+      <description>The last week I spent a lot of time on closing a serious leak of confidential information from what I assume to be the DOJ Montana. This is my PostMortem on the incident.</description>
+    </item>
     <item>
       <title>The war between Israel and Iran</title>
       <link>https://blog.literarily-starved.com/2025/06/the-war-between-israel-and-iran/</link>
@@ -35,13 +42,6 @@
       <pubDate>Tue, 30 Jun 2020 17:00:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2020/06/day-102-holding-hands/</guid>
       <description>I spent the complete day in escalation calls. I did not have any stakes in the root causes, but was mostly bus holding hands.</description>
-    </item>
-    <item>
-      <title>Day 101: Buying a bicycle</title>
-      <link>https://blog.literarily-starved.com/2020/06/day-101-buying-a-bicycle/</link>
-      <pubDate>Mon, 29 Jun 2020 20:00:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2020/06/day-101-buying-a-bicycle/</guid>
-      <description>Buying a bicycle seems to be more difficult than I previously though. Or at least it seems to be more difficult for someone like me.</description>
     </item>
   </channel>
 </rss>
