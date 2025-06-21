@@ -42,7 +42,7 @@
   <meta itemprop="description" content="The last week I spent a lot of time on closing a serious leak of confidential information from what I assume to be the DOJ Montana. This is my PostMortem on the incident.">
   <meta itemprop="datePublished" content="2025-06-21T15:43:00+02:00">
   <meta itemprop="dateModified" content="2025-06-21T15:43:00+02:00">
-  <meta itemprop="wordCount" content="1243">
+  <meta itemprop="wordCount" content="1240">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
   <meta name="twitter:description" content="The last week I spent a lot of time on closing a serious leak of confidential information from what I assume to be the DOJ Montana. This is my PostMortem on the incident.">
@@ -178,13 +178,13 @@
 </ul>
 </li>
 <li>
-<p>June 5th 2025: Security Researcher analyses the SMB share and discovers phone dumpy created with Graykey.  Some data is mere hours old, therefore this is a live leak.</p>
+<p>June 5th 2025: Security Researcher analyses the SMB share and discovers phone dump created with Graykey.  Some data is mere hours old, therefore this is a live leak.</p>
 </li>
 <li>
 <p>In between: File names show that some investigations are tied to child abuse as directories contain &ldquo;CSAM&rdquo; as part of the directory names.</p>
 <ul>
-<li>Remark: Usually investigations are identified by three parameters in thge file name: type of crime, location and some keyword (optional). In case of major crimes, using those identifiers one could easily identify those crime through press reports.</li>
-<li>One directory name seemed to indicate the dump to be done from a police officers phone who comitted suicide.</li>
+<li>Remark: Usually investigations are identified by three parameters in the file name: type of crime, location and some keyword (optional). In case of major crimes, using those identifiers one could easily identify those crime through press reports.</li>
+<li>One directory name seemed to indicate the dump to be done from a police officer&rsquo;s phone who committed suicide.</li>
 </ul>
 </li>
 <li>
@@ -201,10 +201,10 @@
 <p>June 12th 2025 ~19:00 UTC: Start discussing the leak with journalists in the U.S. Due to the CSAM topic, there is great reluctance to engage.</p>
 </li>
 <li>
-<p>June 13th 2025, 19:20 UTC: From the extraction report I assume that this investigation is done by the Cascade County Police Department. I attempt to contact Sheriff Jesse Slaughter him by: mobile (spoke on his voice box), text message (iMessage) and email. As of today there is no answer.</p>
+<p>June 13th 2025, 19:20 UTC: From the extraction report I assume that this investigation is done by the Cascade County Police Department. I attempt to contact Sheriff Jesse Slaughter by: mobile (spoke on his voice box), text message (iMessage) and email. As of today there is no answer.</p>
 </li>
 <li>
-<p>June 17th 2025, 07:22 UTC: A second security researcher informs the Bozeman PD about one of their investigations to be in the leak</p>
+<p>June 17th 2025, 07:22 UTC: A second security researcher informs the Bozeman PD about one of their investigations in the leak.</p>
 </li>
 <li>
 <p>June 17th 2025: Second security researcher also reaches out to the former Attorney General and former Governor of Montana Steve Bullock via LinkedIn to help with the leak. As of today there is no answer.</p>
@@ -242,7 +242,7 @@
 <p>Failures:</p>
 <ul>
 <li>The PC with that kind information should never have been &ldquo;internet facing&rdquo; (architecture mistake)</li>
-<li>The informations do not belong on any file share (organisational mistake)</li>
+<li>The informations does not belong on any file share (organisational mistake)</li>
 <li>Shares should never allow unauthenticated access (configuration mistake)</li>
 <li>The information should never have been stored unencrypted  (lack of data security)</li>
 <li>Incoming SMB traffic should never be allowed to such a network (firewall policy mistake).</li>
@@ -260,10 +260,10 @@
 <h3 id="closing-remarks">Closing Remarks</h3>
 <p><strong>It is clearly necessary that we have at least one public contact in each country that investigates and closes data leaks reported to them. The effort to close even the worst leaks is unbearable and currently rests on the shoulders of security researchers and their supporting environment.</strong></p>
 <p>Time spent on this leak from my side (without the time for this report) is 12+ hours. My best estimate on the effort of all people involved closing this leak would be in the multiple hundreds of hours. The amount of time spent by the person responsible for the leaking system on security issues: None.</p>
-<p>I assume the the leak is somehow tied to the DOJ Montana. This is not 100% sure, but i received multiple indicators that they are closely connected the leak.</p>
+<p>I assume the leak is somehow tied to the DOJ Montana. This is not 100% sure, but I received multiple indicators that they are closely connected to the leak.</p>
 <p>There were more attempts to reach official contacts than documented here in the PostMortem. The list only includes those I could pinpoint with a reasonable degree of certainty.</p>
 <p>I will not answer questions on how the forensics software works. This is out of scope for me. If you want to keep your phone safe: make it stay in the BFU state most of the time, choose a long and complex PIN, avoid cloud backups and do not install tracking apps.</p>
-<p>I do not know if the share was writeable for everyone. This is also out of scope. Therefore I cannot say how difficult it would have been to manipulate an investigation. But my guess would be, that at least for a skilled atacker this would seem quite possible.</p>
+<p>I do not know if the share was writeable for everyone. This is also out of scope. Therefore I cannot say how difficult it would have been to manipulate an investigation. But my guess would be, that at least for a skilled attacker this would seem quite possible.</p>
 <p>Purpose of the PostMortem is to provide an opportunity to learn for the affected party and those in danger of making similar mistakes. Futhermore I feel responsible to give all the people involved some closure.</p>
 <p>For comments, <a href="https://infosec.exchange/@masek/114721620930871030">please use Mastodon</a>.</p>
 <ul class="pa0">
