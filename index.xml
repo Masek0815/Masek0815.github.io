@@ -23,6 +23,13 @@
       <description>Israel is at war with Iran, again. I want to explain what I see unfolding in this “new” war between Israel and Iran, and how all of it ties into the bigger picture.</description>
     </item>
     <item>
+      <title>How to handle a responsible disclosure you get from me?</title>
+      <link>https://blog.literarily-starved.com/2025/06/how-to-handle-a-responsible-disclosure-you-get-from-me/</link>
+      <pubDate>Sun, 01 Jun 2025 15:16:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2025/06/how-to-handle-a-responsible-disclosure-you-get-from-me/</guid>
+      <description>Let’s assume you run an IT service or deliver some kind of device to customers, and you receive a report from me informing you about a security problem in your service or device. This can —and has—happened to some of the best in the industry. So, you&amp;rsquo;re not alone.</description>
+    </item>
+    <item>
       <title>Day 121: Technology Projection</title>
       <link>https://blog.literarily-starved.com/2020/07/day-121-technology-projection/</link>
       <pubDate>Sun, 19 Jul 2020 17:09:00 +0200</pubDate>
@@ -35,13 +42,6 @@
       <pubDate>Sun, 05 Jul 2020 12:00:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/</guid>
       <description>As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.</description>
-    </item>
-    <item>
-      <title>Day 102: Holding hands</title>
-      <link>https://blog.literarily-starved.com/2020/06/day-102-holding-hands/</link>
-      <pubDate>Tue, 30 Jun 2020 17:00:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2020/06/day-102-holding-hands/</guid>
-      <description>I spent the complete day in escalation calls. I did not have any stakes in the root causes, but was mostly bus holding hands.</description>
     </item>
   </channel>
 </rss>
