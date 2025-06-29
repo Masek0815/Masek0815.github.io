@@ -6,8 +6,15 @@
     <description>Recent content on Literarily Starved</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jun 2025 15:43:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 17:55:00 +0200</lastBuildDate>
     <atom:link href="https://blog.literarily-starved.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PostMortem: Bolton Walkin Clinic</title>
+      <link>https://blog.literarily-starved.com/2025/06/postmortem-bolton-walkin-clinic/</link>
+      <pubDate>Sun, 29 Jun 2025 17:55:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2025/06/postmortem-bolton-walkin-clinic/</guid>
+      <description>This was a leak that was open for a very long time. But finally it was closed.</description>
+    </item>
     <item>
       <title>PostMortem: Assumed DOJ Montana Leak of Phone Dumps</title>
       <link>https://blog.literarily-starved.com/2025/06/postmortem-assumed-doj-montana-leak-of-phone-dumps/</link>
@@ -35,13 +42,6 @@
       <pubDate>Sun, 19 Jul 2020 17:09:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2020/07/day-121-technology-projection/</guid>
       <description>According to Wikipedia, &amp;lsquo;Power Projection&amp;rsquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&amp;rsquo;s power in international relations.  I think one can use the similar term &amp;lsquo;Technology Projection&amp;rsquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control.</description>
-    </item>
-    <item>
-      <title>Day 107: Blogging with Hugo (Part 1)</title>
-      <link>https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/</link>
-      <pubDate>Sun, 05 Jul 2020 12:00:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2020/07/day-107-blogging-with-hugo-part-1/</guid>
-      <description>As already mentioned, I decided to migrate to Hugo as blog software. Furthermore now GitHub is hosting my pages instead of Google. Though the first steps were rather simple, my specific requirements created some challenges.</description>
     </item>
   </channel>
 </rss>
