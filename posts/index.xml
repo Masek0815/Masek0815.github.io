@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jun 2025 17:55:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jul 2025 15:37:00 +0200</lastBuildDate>
     <atom:link href="https://blog.literarily-starved.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PostMortem: Data Leak Brandt Kettwick Defense</title>
+      <link>https://blog.literarily-starved.com/2025/07/postmortem-data-leak-brandt-kettwick-defense/</link>
+      <pubDate>Sat, 05 Jul 2025 15:37:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2025/07/postmortem-data-leak-brandt-kettwick-defense/</guid>
+      <description>Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.</description>
+    </item>
     <item>
       <title>PostMortem: Bolton Walkin Clinic</title>
       <link>https://blog.literarily-starved.com/2025/06/postmortem-bolton-walkin-clinic/</link>
@@ -35,13 +42,6 @@
       <pubDate>Sun, 01 Jun 2025 15:16:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2025/06/how-to-handle-a-responsible-disclosure-you-get-from-me/</guid>
       <description>Let’s assume you run an IT service or deliver some kind of device to customers, and you receive a report from me informing you about a security problem in your service or device. This can —and has—happened to some of the best in the industry. So, you&amp;rsquo;re not alone.</description>
-    </item>
-    <item>
-      <title>Day 121: Technology Projection</title>
-      <link>https://blog.literarily-starved.com/2020/07/day-121-technology-projection/</link>
-      <pubDate>Sun, 19 Jul 2020 17:09:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2020/07/day-121-technology-projection/</guid>
-      <description>According to Wikipedia, &amp;lsquo;Power Projection&amp;rsquo; is a term used in military and political science to refer to the capacity of a state to deploy and sustain forces outside its territory. This ability is a crucial element of a state&amp;rsquo;s power in international relations.  I think one can use the similar term &amp;lsquo;Technology Projection&amp;rsquo; to describe the capacity of an innovative enterprise to deploy and sustain new technology outside their control.</description>
     </item>
   </channel>
 </rss>

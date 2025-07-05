@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Literarily Starved</title>
+    <title>PostMortem: Data Leak Brandt Kettwick Defense | Literarily Starved</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.147.8">
     
@@ -28,35 +28,34 @@
 
     
     
-      <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Literarily Starved" />
-      <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Literarily Starved" />
-      
-    
-    
-    <meta property="og:url" content="https://blog.literarily-starved.com/posts/">
+    <meta property="og:url" content="https://blog.literarily-starved.com/2025/07/postmortem-data-leak-brandt-kettwick-defense/">
   <meta property="og:site_name" content="Literarily Starved">
-  <meta property="og:title" content="Posts">
-  <meta property="og:description" content="Confessions of a binge reader">
+  <meta property="og:title" content="PostMortem: Data Leak Brandt Kettwick Defense">
+  <meta property="og:description" content="Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-05T15:37:00+02:00">
+    <meta property="article:modified_time" content="2025-07-05T15:37:00+02:00">
 
-  <meta itemprop="name" content="Posts">
-  <meta itemprop="description" content="Confessions of a binge reader">
+  <meta itemprop="name" content="PostMortem: Data Leak Brandt Kettwick Defense">
+  <meta itemprop="description" content="Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.">
   <meta itemprop="datePublished" content="2025-07-05T15:37:00+02:00">
   <meta itemprop="dateModified" content="2025-07-05T15:37:00+02:00">
+  <meta itemprop="wordCount" content="612">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
-  <meta name="twitter:description" content="Confessions of a binge reader">
+  <meta name="twitter:title" content="PostMortem: Data Leak Brandt Kettwick Defense">
+  <meta name="twitter:description" content="Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.">
 </head>
 
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
-  
-  
-  <header class="cover bg-top" style="background-image: url('https://blog.literarily-starved.com/images/library-cincinnati2.png');">
-    <div class="bg-black-60">
+  <header>
+    <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -133,97 +132,90 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Posts
-        </h1>
-        
-      </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
-    <section class="flex-ns flex-wrap justify-around mt5">
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="https://blog.literarily-starved.com/2013/10/legal/disclaimer/" class="link black dim">
-        Legal/Disclaimer
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Legal aspects
+
+
+
+
+
+      <h1 class="f1 athelas mt3 mb1">PostMortem: Data Leak Brandt Kettwick Defense</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-07-05T15:37:00&#43;02:00">July 5, 2025</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="type-of-leak">Type of leak</h3>
+<p>Azure Blob with the multi-year archive of a law defense firm. Files were readable and indexable for anyone. The leak contained data like search warrants, master case files from law enforcement, interviews with victim, accused and victim of sexual assault cases and much, much more. In total there were several tenthousand documents.</p>
+<p>URL of the leak was: <a href="https://brandtdefense.blob.core.windows.net/">https://brandtdefense.blob.core.windows.net/</a></p>
+<h3 id="threats-from-the-leak">Threats from the leak</h3>
+<p>I see the following threats:</p>
+<ul>
+<li>Confidentiality people seeking legal counsel help is compromised</li>
+<li>Privacy of mutliple U.S. citizens compromised</li>
+<li>Very likely violation of several laws and ethic guidelines</li>
+</ul>
+<h3 id="timeline">Timeline</h3>
+<ul>
+<li>April 2025: Leak is dicovered by a security researcher.</li>
+<li>June 4th 2025: Significance of the leak identified, multiple attempts by the security researcher to close the leak (Email, Web Contact), no reply during the complete incident</li>
+<li>June 12th 2025: A second security reseracher attempts to contact the law defense firm, no reply till the end. Calls to the designated phone number were hung up by the law firm.</li>
+<li>June 19th 2025: FBI and Hopkins (Minnesota police department) are informed.</li>
+<li>June 21st 2025: I join the effort. Email directed to the owner of the comany and one identified affected person. Not reply during the complete incident.</li>
+<li>June 25th 2025: Second security researcher reaches out to the Minnesota Bureau of Criminal Apprehension (BCA). They reply nearly immediately that they will investigate,</li>
+<li>June 29th 2025: I make a <a href="https://infosec.exchange/@masek/114767334753058478">public post</a> and ask for help to get the attention of the law firm. The second researcher reaches out again to the BCA.</li>
+<li>July 2nd 2025: Leak is closed. BCA answers that they were unable to get the attention of the law form via phone and email, so they send officers on site to convey the seriousness of the leak. They also say that the law firm had asked their IT department and it denied any possibility of a leak.</li>
+</ul>
+<h3 id="analysis">Analysis</h3>
+<p>This is not a complete failure analysis. These are only my own observations. Looking</p>
+<p>Failures:</p>
+<ul>
+<li>The chosen IT department was unable to adhere even to the most basic levels of data security.</li>
+<li>Even when asked by the customer, the IT department denied the possibility of a leak.</li>
+<li>The law firm has no proper process to deal with external IT security alerts.</li>
+<li>Lack of understanding concerning the responsibility on the side of the law firrm. Outsourcing only delegates the work but not the legal obligations.</li>
+</ul>
+<h3 id="impact">Impact</h3>
+<p>It can be safely assumed (due to duration and easiness to discover) that all data on those server is now in the hands of inttelligence services (e.g. Russia, China) and cyber criminals with little care about the privacy of US citizens. Especially for people looking for material to blackmail people, this leak was a gold mine.</p>
+<h3 id="acknowledgments">Acknowledgments</h3>
+<p>Thanks to @JayeLTee@infosec.exchange and @PogoWasRight@infosec.exchange for doing most of the work. A description of the incident from the viewpoint of Dissent can be found <a href="https://databreaches.net/2025/07/04/no-need-to-hack-when-its-leaking-brandt-kettwick-defense-edition/">here</a>.</p>
+<p>Furthermore I wish to praise the work of Minnesota Bureau of Criminal Apprehension.</p>
+<p>Also thanks to @TonyYarusso@infosec.exchange and @bkoehn@hachyderm.io for assisting us in getting the necessary attention.</p>
+<h3 id="closing-remarks">Closing Remarks</h3>
+<p><strong>It is clearly necessary that we have at least one public contact in each country that investigates and closes data leaks reported to them. The effort to close even the worst leaks is unbearable and currently rests on the shoulders of security researchers and their supporting environment.</strong></p>
+<p>Time spent on this leak from my side (without the time for this report) is 4+ hours. My best estimate on the effort of all people involved closing this leak would be in the hundreds of hours. The amount of time spent by the person responsible for the leaking system on security issues: None.</p>
+<p>For comments, <a href="https://infosec.exchange/@masek/114800897587580803">please use Mastodon</a>.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      </div>
     </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="https://blog.literarily-starved.com/2013/10/about-this-blog/" class="link black dim">
-        About this blog
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      In 2013, I decided that I would write up some pieces about the books I read. At first I planned to put them on Google+. But I was not very happy about what could be done there in terms of formatting, overview or references to other reviews. So the decision came to start this blog.
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="https://blog.literarily-starved.com/2013/10/contact/author/" class="link black dim">
-        Contact/Author
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Who is writing this blog?
-    </div>
-  </div>
-</div>
-</div>
-      
-    </section>
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/posts/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/posts/page/12/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/posts/page/9/" aria-label="Page 9" class="page-link" role="button">9</a>
-      </li>
-      <li class="page-item">
-        <a href="/posts/page/10/" aria-label="Page 10" class="page-link" role="button">10</a>
-      </li>
-      <li class="page-item">
-        <a href="/posts/page/11/" aria-label="Page 11" class="page-link" role="button">11</a>
-      </li>
-      <li class="page-item">
-        <a href="/posts/page/12/" aria-label="Page 12" class="page-link" role="button">12</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 13" class="page-link" role="button">13</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul></article>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
