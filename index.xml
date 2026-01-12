@@ -6,8 +6,15 @@
     <description>Recent content on Literarily Starved</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jan 2026 14:29:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 14:33:00 +0200</lastBuildDate>
     <atom:link href="https://blog.literarily-starved.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Framework for Evaluating &#39;New&#39; Technologies</title>
+      <link>https://blog.literarily-starved.com/2026/01/framework-for-evaluating-new-technologies/</link>
+      <pubDate>Mon, 12 Jan 2026 14:33:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2026/01/framework-for-evaluating-new-technologies/</guid>
+      <description>I notice in a lot of discussions that I need to write down how I proceed when something new or revolutionary is announced in the press or the internet. So here it comes&amp;hellip;.</description>
+    </item>
     <item>
       <title>Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2</title>
       <link>https://blog.literarily-starved.com/2026/01/tutorial-paperless-ngx-in-a-lxc-container-on-proxmox-part-2/</link>
@@ -35,13 +42,6 @@
       <pubDate>Mon, 13 Oct 2025 14:00:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2025/10/short-story-the-nature-of-evil/</guid>
       <description>My name is Lord Thaddeus Morne, Sovereign of the Veiled Cities of the Obsidian Reach, a title that should be spoken slowly, preferably with a touch of apprehension. Yes, I am what the bards, the chroniclers, and the more melodramatic paladins like to call an &lt;em&gt;evil overlord&lt;/em&gt;. I do not shy from the term; one must own one’s brand.</description>
-    </item>
-    <item>
-      <title>PostMortem: Data Leak Brandt Kettwick Defense</title>
-      <link>https://blog.literarily-starved.com/2025/07/postmortem-data-leak-brandt-kettwick-defense/</link>
-      <pubDate>Sat, 05 Jul 2025 15:37:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2025/07/postmortem-data-leak-brandt-kettwick-defense/</guid>
-      <description>Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.</description>
     </item>
   </channel>
 </rss>
