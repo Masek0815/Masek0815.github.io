@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jan 2026 15:12:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 15:49:00 +0200</lastBuildDate>
     <atom:link href="https://blog.literarily-starved.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updated greek task lists</title>
+      <link>https://blog.literarily-starved.com/2026/01/updated-greek-task-lists/</link>
+      <pubDate>Mon, 12 Jan 2026 15:49:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2026/01/updated-greek-task-lists/</guid>
+      <description>When you are tired of your herculean or sysiphus tasks</description>
+    </item>
     <item>
       <title>I didn&#39;t know</title>
       <link>https://blog.literarily-starved.com/2026/01/i-didnt-know/</link>
@@ -35,13 +42,6 @@
       <pubDate>Mon, 12 Jan 2026 14:25:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2026/01/tutorial-paperless-ngx-in-a-lxc-container-on-proxmox-part-1/</guid>
       <description>About Paperless-NGX and why I install it in Proxmox LXC</description>
-    </item>
-    <item>
-      <title>On the stability of authoritarian regimes</title>
-      <link>https://blog.literarily-starved.com/2026/01/on-the-stability-of-authoritarian-regimes/</link>
-      <pubDate>Mon, 12 Jan 2026 11:57:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2026/01/on-the-stability-of-authoritarian-regimes/</guid>
-      <description>If you read about the current situation in Iran, you will quickly encounter wildly different assessments. The only thing this conveys with any certainty is that we don’t know shit. This article is an attempt to explain why&amp;hellip;</description>
     </item>
   </channel>
 </rss>
