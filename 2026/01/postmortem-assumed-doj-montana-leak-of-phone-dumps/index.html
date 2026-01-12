@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>PostMortem: Data Leak Brandt Kettwick Defense | Literarily Starved</title>
+    <title>PostMortem: Assumed DOJ Montana Leak of Phone Dumps | Literarily Starved</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.154.0">
     
@@ -28,24 +28,24 @@
 
     
     
-    <meta property="og:url" content="https://blog.literarily-starved.com/2025/07/postmortem-data-leak-brandt-kettwick-defense/">
+    <meta property="og:url" content="https://blog.literarily-starved.com/2026/01/postmortem-assumed-doj-montana-leak-of-phone-dumps/">
   <meta property="og:site_name" content="Literarily Starved">
-  <meta property="og:title" content="PostMortem: Data Leak Brandt Kettwick Defense">
-  <meta property="og:description" content="Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.">
+  <meta property="og:title" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
+  <meta property="og:description" content="If you read about the current situation in Iran, you will quickly encounter wildly different assessments. The only thing this conveys with any certainty is that we don’t know shit. This article is an attempt to explain why…">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-07-05T15:37:00+02:00">
-    <meta property="article:modified_time" content="2025-07-05T15:37:00+02:00">
+    <meta property="article:published_time" content="2026-01-12T11:57:00+02:00">
+    <meta property="article:modified_time" content="2026-01-12T11:57:00+02:00">
 
-  <meta itemprop="name" content="PostMortem: Data Leak Brandt Kettwick Defense">
-  <meta itemprop="description" content="Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.">
-  <meta itemprop="datePublished" content="2025-07-05T15:37:00+02:00">
-  <meta itemprop="dateModified" content="2025-07-05T15:37:00+02:00">
-  <meta itemprop="wordCount" content="612">
+  <meta itemprop="name" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
+  <meta itemprop="description" content="If you read about the current situation in Iran, you will quickly encounter wildly different assessments. The only thing this conveys with any certainty is that we don’t know shit. This article is an attempt to explain why…">
+  <meta itemprop="datePublished" content="2026-01-12T11:57:00+02:00">
+  <meta itemprop="dateModified" content="2026-01-12T11:57:00+02:00">
+  <meta itemprop="wordCount" content="758">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="PostMortem: Data Leak Brandt Kettwick Defense">
-  <meta name="twitter:description" content="Another leak was closed. I am glad to learn that even law enforcement agencies get ghosted when trying to alert a company on a leak.">
+  <meta name="twitter:title" content="PostMortem: Assumed DOJ Montana Leak of Phone Dumps">
+  <meta name="twitter:description" content="If you read about the current situation in Iran, you will quickly encounter wildly different assessments. The only thing this conveys with any certainty is that we don’t know shit. This article is an attempt to explain why…">
 </head>
 
   <body class="ma0 avenir bg-near-white">
@@ -152,54 +152,68 @@
 
 
 
-      <h1 class="f1 athelas mt3 mb1">PostMortem: Data Leak Brandt Kettwick Defense</h1>
+      <h1 class="f1 athelas mt3 mb1">PostMortem: Assumed DOJ Montana Leak of Phone Dumps</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2025-07-05T15:37:00&#43;02:00">July 5, 2025</time>
+      <time class="f6 mv4 dib tracked" datetime="2026-01-12T11:57:00&#43;02:00">January 12, 2026</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="type-of-leak">Type of leak</h3>
-<p>Azure Blob with the multi-year archive of a law defense firm. Files were readable and indexable for anyone. The leak contained data like search warrants, master case files from law enforcement, interviews with victim, accused and victim of sexual assault cases and much, much more. In total there were several tenthousand documents.</p>
-<p>URL of the leak was: <a href="https://brandtdefense.blob.core.windows.net/">https://brandtdefense.blob.core.windows.net/</a></p>
-<h3 id="threats-from-the-leak">Threats from the leak</h3>
-<p>I see the following threats:</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="on-the-stability-of-authoritarian-regimes">On the stability of authoritarian regimes</h1>
+<p>If you read about the current situation in Iran, you will quickly encounter wildly different assessments:</p>
+<blockquote>
+<p>&ldquo;The End of The Mullahs’ Regime in Iran Is Near&rdquo;</p>
+</blockquote>
+<p>or</p>
+<blockquote>
+<p>&ldquo;Son of ousted shah says he’s ‘prepared to return to Iran’ at first opportunity&rdquo;</p>
+</blockquote>
+<p>or</p>
+<blockquote>
+<p>&ldquo;Here’s Why the Iranian Regime Seems Invincible&rdquo;</p>
+</blockquote>
+<p>These are just a few of todays headlines on the same topic. <em>The only thing this conveys with any certainty is that we don’t know shit.</em></p>
+<p>There is no KPI showing when a regime is about to fall. If there were, the CIA would be perfect in predicting revolutions. But usually they are taken by surprise like everyone else.</p>
+<p>This article is an attempt to explain why&hellip;</p>
+<h3 id="protests-dont-topple-regimes-an-organized-opposition-does">Protests don&rsquo;t topple regimes: an organized opposition does</h3>
+<p>Protesters are not, by themselves, good at toppling regimes. They can be extremely useful to actors trying to overthrow those in power, but protests only rarely determine who will actually be in charge tomorrow.</p>
+<p>In order to take over a country, you need first and foremost a political organization capable of governing. A mob cannot rule. Without an organization that can actually take over, there will be no new government.</p>
+<p>One key feature of authoritarian regimes is that they do not allow their opponents to organize. As a result, any opposition has to organize in secret. As a result, two very different situations look very similar from the outside:</p>
 <ul>
-<li>Confidentiality people seeking legal counsel help is compromised</li>
-<li>Privacy of mutliple U.S. citizens compromised</li>
-<li>Very likely violation of several laws and ethic guidelines</li>
+<li>There is no organized opposition, so we don&rsquo;t see any.</li>
+<li>There is a well organized opposition that is highly capable of maintaining secrecy.</li>
 </ul>
-<h3 id="timeline">Timeline</h3>
+<p>One situation is genuinely dangerous for the regime; the other is not. The challenge is telling one from the other.</p>
+<h3 id="the-internal-state-of-the-regime-matters">The internal state of the regime matters</h3>
+<p>Usually, a regime does not fall because of the strength of its opposition, but because of a lack of support. Maintaining a regime is hard and active work.</p>
+<p>A functional regime requires:</p>
 <ul>
-<li>April 2025: Leak is dicovered by a security researcher.</li>
-<li>June 4th 2025: Significance of the leak identified, multiple attempts by the security researcher to close the leak (Email, Web Contact), no reply during the complete incident</li>
-<li>June 12th 2025: A second security reseracher attempts to contact the law defense firm, no reply till the end. Calls to the designated phone number were hung up by the law firm.</li>
-<li>June 19th 2025: FBI and Hopkins (Minnesota police department) are informed.</li>
-<li>June 21st 2025: I join the effort. Email directed to the owner of the comany and one identified affected person. Not reply during the complete incident.</li>
-<li>June 25th 2025: Second security researcher reaches out to the Minnesota Bureau of Criminal Apprehension (BCA). They reply nearly immediately that they will investigate,</li>
-<li>June 29th 2025: I make a <a href="https://infosec.exchange/@masek/114767334753058478">public post</a> and ask for help to get the attention of the law firm. The second researcher reaches out again to the BCA.</li>
-<li>July 2nd 2025: Leak is closed. BCA answers that they were unable to get the attention of the law form via phone and email, so they send officers on site to convey the seriousness of the leak. They also say that the law firm had asked their IT department and it denied any possibility of a leak.</li>
+<li>people to control and censor the media,</li>
+<li>a riot police and a secret police,</li>
+<li>strong oversight of all state functions,</li>
+<li>and a lot more.</li>
 </ul>
-<h3 id="analysis">Analysis</h3>
-<p>This is not a complete failure analysis. These are only my own observations. Looking</p>
-<p>Failures:</p>
+<p>A regime falls when that support is no longer there, and the opposition can exploit the resulting cracks and crevices to pry power away from it.</p>
+<p>It is absolutely essential for any authoritarian regime to make internal support appear to be at its best. While it may punish any dissent at all, it will crack 10 times as hard on any dissent within it’s own ranks and everyone knows that. So even nominal supporters on the verge of deserting the regime will continue to profess their loyalty.</p>
+<p>As a result, the internal state of an authoritarian regime is extremely opaque.</p>
+<h3 id="rewards-and-punishment">Rewards and punishment</h3>
+<p>An authoritarian regime in power usually has two major advantages for maintaining its support:</p>
 <ul>
-<li>The chosen IT department was unable to adhere even to the most basic levels of data security.</li>
-<li>Even when asked by the customer, the IT department denied the possibility of a leak.</li>
-<li>The law firm has no proper process to deal with external IT security alerts.</li>
-<li>Lack of understanding concerning the responsibility on the side of the law firrm. Outsourcing only delegates the work but not the legal obligations.</li>
+<li>It can reward its followers</li>
+<li>If can punish its opponents</li>
 </ul>
-<h3 id="impact">Impact</h3>
-<p>It can be safely assumed (due to duration and easiness to discover) that all data on those server is now in the hands of inttelligence services (e.g. Russia, China) and cyber criminals with little care about the privacy of US citizens. Especially for people looking for material to blackmail people, this leak was a gold mine.</p>
-<h3 id="acknowledgments">Acknowledgments</h3>
-<p>Thanks to @JayeLTee@infosec.exchange and @PogoWasRight@infosec.exchange for doing most of the work. A description of the incident from the viewpoint of Dissent can be found <a href="https://databreaches.net/2025/07/04/no-need-to-hack-when-its-leaking-brandt-kettwick-defense-edition/">here</a>.</p>
-<p>Furthermore I wish to praise the work of Minnesota Bureau of Criminal Apprehension.</p>
-<p>Also thanks to @TonyYarusso@infosec.exchange and @bkoehn@hachyderm.io for assisting us in getting the necessary attention.</p>
-<h3 id="closing-remarks">Closing Remarks</h3>
-<p><strong>It is clearly necessary that we have at least one public contact in each country that investigates and closes data leaks reported to them. The effort to close even the worst leaks is unbearable and currently rests on the shoulders of security researchers and their supporting environment.</strong></p>
-<p>Time spent on this leak from my side (without the time for this report) is 4+ hours. My best estimate on the effort of all people involved closing this leak would be in the hundreds of hours. The amount of time spent by the person responsible for the leaking system on security issues: None.</p>
-<p>For comments, <a href="https://infosec.exchange/@masek/114800897587580803">please use Mastodon</a>.</p>
+<p>As long as a regime maintains these two capabilities, it will have no trouble finding goons willing to fight for it. This holds true in Minneapolis as well as in Tehran.</p>
+<p>Any regime uses sticks and carrots to ensure that its nominal supporters actively support it. These functions are absolutely essential, and an authoritarian regime will sooner allow hunger among the masses than risk losing these tools.</p>
+<p>That makes it hard to judge when a regime will lose its ability to reward or punish.</p>
+<h3 id="breaking-the-morale-of-a-regime">Breaking the morale of a regime</h3>
+<p><strong>The disadvantage of a regime is that it has to reward its followers and punish its opponents.</strong> While a rebel only expects a reward after victory, a government agent has immediate and tangible demands.</p>
+<p>The system starts to collapse once supporters lose their belief in the regime’s ability to make good on its promises and its threats. Anyone who has lost that belief knows they are in immediate danger. That person will do anything to conceal the fact.</p>
+<p>So a system that is about to fall is like a poker table full of people holding poor cards and bluffing as if their lives depend on it, which they do. You may be able to feel this if you are one of the people at the table. But you will have no clue if you are just watching TV coverage thousands of miles away.</p>
+<p>As a result, the people with the deepest insight into the severity of the regime’s situation have the strongest reasons to keep quiet about it.</p>
+<h3 id="summary">Summary</h3>
+<p>There is no reliable external indicator that will tell you that a regime is about to be toppled.</p>
+<p><strong>Once you see clear signs, it has already happened.</strong></p>
 <ul class="pa0">
   
 </ul>
