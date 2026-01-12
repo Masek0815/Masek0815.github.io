@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2 | Literarily Starved</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.154.0">
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/icons8-hand-cursor-24.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:url" content="https://blog.literarily-starved.com/2026/01/tutorial-paperless-ngx-in-a-lxc-container-on-proxmox-part-2/">
+  <meta property="og:site_name" content="Literarily Starved">
+  <meta property="og:title" content="Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2">
+  <meta property="og:description" content="Core installation of Paperless-NGX">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-12T14:29:00+02:00">
+    <meta property="article:modified_time" content="2026-01-12T14:29:00+02:00">
+
+  <meta itemprop="name" content="Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2">
+  <meta itemprop="description" content="Core installation of Paperless-NGX">
+  <meta itemprop="datePublished" content="2026-01-12T14:29:00+02:00">
+  <meta itemprop="dateModified" content="2026-01-12T14:29:00+02:00">
+  <meta itemprop="wordCount" content="1135">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2">
+  <meta name="twitter:description" content="Core installation of Paperless-NGX">
+</head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Literarily Starved
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about.html" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact.html" title="Contact/Author page">
+              Contact/Author
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/legal.html" title="Legal/Disclaimer page">
+              Legal/Disclaimer
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/index.xml" title="RSS page">
+              RSS
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+      <h1 class="f1 athelas mt3 mb1">Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-01-12T14:29:00&#43;02:00">January 12, 2026</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="sizing--preparation">Sizing &amp; Preparation</h3>
+<p>I made these thought</p>
+<p>In the last 16 years about 5.000 documents have entered our joint stash with a total volume of about 1GB. Being very generous I decided that about 100 GB should be more the enough to handle expected growth in size and volume of documents.</p>
+<p>Without having any experience I decided to allocate 4 virtual CPUs and 16GB of RAM. Other than the disk space, this can later be adjusted easily.</p>
+<p>Then there is the quetion of which OS to use as basis. As I am a lazy SOB, I intended to use one of the default offerings from Proxmox. So I logged in via Console to Proxmox and did a</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>pveam update
+</span></span><span style="display:flex;"><span>pveam available
+</span></span></code></pre></div><p>From the list I decided for &ldquo;debian-13-standard_13.1-2_amd64.tar.zst&rdquo; and made that template locally available via</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>pveam download local debian-13-standard_13.1-2_amd64.tar.zst
+</span></span></code></pre></div><h3 id="creating-the-container">Creating the Container</h3>
+<p><strong>Important note:</strong> This is not a Proxmox tutorial. I try to give you the most important steps, but you should roughly understand your Proxmox before this step.</p>
+<p>Proxmox has a guided process to setup a container. You select in the WebGUI of Proxmox the &ldquo;Create CT&rdquo;-button in the following you go through several steps:</p>
+<ul>
+<li>Page 1 - General
+<ul>
+<li>Node: Your Proxmox node on which the LXC container</li>
+<li>CT ID: An ID for your system, the suggested ID is usually OK</li>
+<li>Hostname: Which hostname you want to give your instance, in my case &ldquo;paperless&rdquo;</li>
+<li>Resource Pool: Select one of the Pools you created. In my case it was &ldquo;Prod&rdquo; for Production. When you setup Proxmox, you should define pools.</li>
+<li>Password/Confirm Password: The root password</li>
+<li>SSH public key: SSH-Key (recommended to use this instead of your password)</li>
+</ul>
+</li>
+<li>Page 2 - Template
+<ul>
+<li>Storage: local</li>
+<li>Template: debian-13-standard_13.1-2_amd64.tar.zst</li>
+</ul>
+</li>
+<li>Page 3 - Disks
+<ul>
+<li>Storage: A storage pool you gave your Proxmox</li>
+<li>Disk size: (see above)</li>
+</ul>
+</li>
+<li>Page 4 - CPU
+<ul>
+<li>Cores: 4 (see above)</li>
+</ul>
+</li>
+<li>Page 5 - Memory
+<ul>
+<li>Memory: 16384 (see above)</li>
+<li>Swap: 16384 (see above)</li>
+</ul>
+</li>
+<li>Page 6 - Network
+<ul>
+<li>May be more complicated if you use multiple networks on your Proxmox</li>
+<li>Select network and gateway (remark: IPv4 CIDR notation is something like 192.168.0.10/24)</li>
+</ul>
+</li>
+<li>Page 7 - DNS
+<ul>
+<li>Hopefully the DNS settings of your Proxmox host are such that you can use those</li>
+</ul>
+</li>
+<li>Page 8 - Confirm
+<ul>
+<li>Check your settings</li>
+<li>Select &ldquo;Start after created&rdquo;</li>
+<li>Press &ldquo;Finish&rdquo; and hope for the best &hellip;</li>
+</ul>
+</li>
+</ul>
+<h3 id="vm-or-bare-metal">VM or Bare Metal</h3>
+<p>In that case you just install a VM or a bare metal server with Debian 13 and follow the standard setup to set similar parameters as for the LXC container.</p>
+<h3 id="uv">uv</h3>
+<p>Paperless-NGX is written in Python. Managing Python depencies is a mess. Luckily there is a tool for that: <a href="https://docs.astral.sh/uv/">https://docs.astral.sh/uv/</a></p>
+<p>Luckily Paperless-NGX is prepared to run with uv. So I make use of this.</p>
+<p>Remark: &ldquo;uv&rdquo; is worthy of a tutorial on itself. @kris has started one here: <a href="https://github.com/isotopp/uv-class">https://github.com/isotopp/uv-class</a>. In short: it allows you to specify all Python depencies of your in a single file (&ldquo;uv.lock&rdquo;) and sync your local installation to it with a single command (&ldquo;uv sync&rdquo;).</p>
+<h3 id="os-preparation">OS preparation</h3>
+<p>Either via SSH or Console, you login as &ldquo;root&rdquo; to your system.</p>
+<p>First make sure all your packages are up to date:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>apt-get update
+</span></span><span style="display:flex;"><span>apt-get upgrade
+</span></span></code></pre></div><p>Then you need to install a lot of packages:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>apt-get install imagemagick fonts-liberation gnupg libpq-dev default-libmysqlclient-dev pkg-config libmagic-dev libzbar0 poppler-utils git unpaper ghostscript icc-profiles-free qpdf libxml2 pngquant zlib1g tesseract-ocr libxslt1-dev media-types mailcap  build-essential redis curl tesseract-ocr-deu sudo
+</span></span></code></pre></div><p>Then you fix your locale:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>export LANGUAGE<span style="color:#f92672">=</span>en_US.UTF-8
+</span></span><span style="display:flex;"><span>export LANG<span style="color:#f92672">=</span>en_US.UTF-8
+</span></span><span style="display:flex;"><span>export LC_ALL<span style="color:#f92672">=</span>en_US.UTF-8
+</span></span><span style="display:flex;"><span>locale-gen en_US.UTF-8
+</span></span><span style="display:flex;"><span>dpkg-reconfigure locales
+</span></span></code></pre></div><p>If you&rsquo;re German like me, you will rather use &ldquo;de_DEU.UTF-8&rdquo; instead of &ldquo;en_US.UTF-8&rdquo;.</p>
+<p>Next you create the &ldquo;paperless&rdquo; user on the system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>adduser paperless --system --home /opt/paperless --group
+</span></span><span style="display:flex;"><span>usermod -s /bin/bash paperless
+</span></span></code></pre></div><p>Since I need to do some ops as user &ldquo;paperless&rdquo;, I give it a shell. That can be removed later.</p>
+<p>Then I switch to over to the user &ldquo;paperless&rdquo; with</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>su - paperless
+</span></span></code></pre></div><h3 id="software-installation">Software Installation</h3>
+<p>As user &ldquo;paperless&rdquo; I execute the next steps:</p>
+<p>Install &ldquo;uv&rdquo;:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>curl -LsSf https://astral.sh/uv/install.sh | sh
+</span></span><span style="display:flex;"><span>source $HOME/.local/bin/env
+</span></span></code></pre></div><p>Download and unpack the software</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>wget https://github.com/paperless-ngx/paperless-ngx/releases/download/v2.20.0/paperless-ngx-v2.20.0.tar.xz
+</span></span><span style="display:flex;"><span>tar xvf paperless-ngx-v2.20.0.tar.xz
+</span></span><span style="display:flex;"><span>rm paperless-ngx-v2.20.0.tar.xz 
+</span></span></code></pre></div><p>Remark: this is version v2.20.0. You might want to use a more recent version when you come up on this documentation there will be a newer one. See <a href="https://github.com/paperless-ngx/paperless-ngx/releases">https://github.com/paperless-ngx/paperless-ngx/releases</a> for the most current release.</p>
+<p>Now move it to the right place:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cd paperless-ngx
+</span></span><span style="display:flex;"><span>mv * ..
+</span></span><span style="display:flex;"><span>mv .* ..
+</span></span><span style="display:flex;"><span>cd ..
+</span></span><span style="display:flex;"><span>rmdir paperless-ngx
+</span></span></code></pre></div><p>Now sync your Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>uv sync --extra granian
+</span></span></code></pre></div><p>The &ldquo;&ndash;extra&rdquo; installs a module that is IMHO missing from the &ldquo;uv.lock&rdquo;</p>
+<p>We wish Paperless-NGX to be able to process natural language. Luckily there is a package (&ldquo;ntlk&rdquo;) for that too:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>uv add nltk
+</span></span><span style="display:flex;"><span>uv run python -m nltk.downloader stopwords
+</span></span><span style="display:flex;"><span>uv run python -m nltk.downloader punkt
+</span></span><span style="display:flex;"><span>uv run python -m nltk.downloader punkt_tab
+</span></span></code></pre></div><p>These are packages recommended for the German language. I would ask someone more familiar with &ldquo;ntlk&rdquo; to pitch in, what you should add for other languages.</p>
+<p>Now create some directories that Paperless-NGX needs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mkdir /opt/paperless/media /opt/paperless/data /opt/paperless/consume
+</span></span></code></pre></div><p>Next you need to edit the config. See the next chapter for a barebone config:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>vi paperless.conf
+</span></span></code></pre></div><p>The next step is running the initiation scripts:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cd src
+</span></span><span style="display:flex;"><span>uv run manage.py migrate
+</span></span><span style="display:flex;"><span>uv run manage.py collectstatic
+</span></span></code></pre></div><p>Then you&rsquo;re done with the &ldquo;uv&rdquo; user an can exit the shell:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>exit
+</span></span></code></pre></div><h3 id="sample-config">Sample Config</h3>
+<p>What do you need to edit?</p>
+<ul>
+<li>Your secret: in my example it is &ldquo;topsecret&rdquo;</li>
+<li>Your FQDN for the server: in my example it is &ldquo;paperless.example.org&rdquo;</li>
+<li>Your OCR language (for analyzing text, dates, numbers): in my example it is &ldquo;deu&rdquo; for German</li>
+<li>Your time zone: in my example it is Europe/Berlin</li>
+</ul>
+<p>There are a lot more settings that you can use. See <a href="https://docs.paperless-ngx.com/configuration/">https://docs.paperless-ngx.com/configuration/</a> for more details.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>PAPERLESS_REDIS<span style="color:#f92672">=</span>redis://localhost:6379
+</span></span><span style="display:flex;"><span>PAPERLESS_CONSUMPTION_DIR<span style="color:#f92672">=</span>/opt/paperless/consume
+</span></span><span style="display:flex;"><span>PAPERLESS_DATA_DIR<span style="color:#f92672">=</span>/opt/paperless/data
+</span></span><span style="display:flex;"><span>PAPERLESS_MEDIA_ROOT<span style="color:#f92672">=</span>/opt/paperless/media
+</span></span><span style="display:flex;"><span>PAPERLESS_STATICDIR<span style="color:#f92672">=</span>/opt/paperless/static
+</span></span><span style="display:flex;"><span>PAPERLESS_SECRET_KEY<span style="color:#f92672">=</span>topsecret
+</span></span><span style="display:flex;"><span>PAPERLESS_URL<span style="color:#f92672">=</span>http://paperless.example.org:8000
+</span></span><span style="display:flex;"><span>PAPERLESS_CSRF_TRUSTED_ORIGINS<span style="color:#f92672">=</span>http://paperless.example.org,https://paperless.example.org
+</span></span><span style="display:flex;"><span>PAPERLESS_ALLOWED_HOSTS<span style="color:#f92672">=</span>paperless.example.org
+</span></span><span style="display:flex;"><span>PAPERLESS_OCR_LANGUAGE<span style="color:#f92672">=</span>deu
+</span></span><span style="display:flex;"><span>PAPERLESS_TIME_ZONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Europe/Berlin&#39;</span>
+</span></span></code></pre></div><h3 id="startup-scripts">Startup scripts</h3>
+<p>Now continue as root user to make the system start properly. First copy the startup scripts</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cp /opt/paperless/scripts/paperless-webserver.socket /etc/systemd/system
+</span></span><span style="display:flex;"><span>cp /opt/paperless/scripts/paperless-webserver.service /etc/systemd/system
+</span></span><span style="display:flex;"><span>cp /opt/paperless/scripts/paperless-consumer.service /etc/systemd/system
+</span></span><span style="display:flex;"><span>cp /opt/paperless/scripts/paperless-task-queue.service /etc/systemd/system
+</span></span><span style="display:flex;"><span>cp /opt/paperless/scripts/paperless-scheduler.service /etc/systemd/system
+</span></span></code></pre></div><p>Then edit them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>vi /etc/systemd/system/paperless-webserver.service
+</span></span><span style="display:flex;"><span>vi /etc/systemd/system/paperless-consumer.service
+</span></span><span style="display:flex;"><span>vi /etc/systemd/system/paperless-scheduler.service
+</span></span><span style="display:flex;"><span>vi /etc/systemd/system/paperless-task-queue.service
+</span></span></code></pre></div><p>The following changes need to be made:</p>
+<h4 id="in-etcsystemdsystempaperless-webserverservice">In &ldquo;/etc/systemd/system/paperless-webserver.service&rdquo;</h4>
+<p>Instead of:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>exec granian --interface asginl --ws <span style="color:#e6db74">&#34;paperless.asgi:application&#34;</span><span style="color:#960050;background-color:#1e0010">&#39;</span>
+</span></span></code></pre></div><p>you use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>exec /opt/paperless/.local/bin/uv run granian --interface asginl --ws <span style="color:#e6db74">&#34;paperless.asgi:application&#34;</span><span style="color:#960050;background-color:#1e0010">&#39;</span>
+</span></span></code></pre></div><h4 id="in-etcsystemdsystempaperless-consumerservice">In /etc/systemd/system/paperless-consumer.service</h4>
+<p>Instead of:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ExecStart<span style="color:#f92672">=</span>python3 manage.py document_consumer
+</span></span></code></pre></div><p>you use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ExecStart<span style="color:#f92672">=</span>/opt/paperless/.local/bin/uv run manage.py document_consumer
+</span></span></code></pre></div><h4 id="in-etcsystemdsystempaperless-schedulerservice-and-paperless-task-queueservice">In &ldquo;&quot;/etc/systemd/system/paperless-scheduler.service&rdquo; and &ldquo;paperless-task-queue.service&rdquo;</h4>
+<p>Instead of:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ExecStart<span style="color:#f92672">=</span>celery --app paperless beat --loglevel INFO
+</span></span></code></pre></div><p>you use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ExecStart<span style="color:#f92672">=</span>/opt/paperless/.local/bin/uv run celery --app paperless beat --loglevel INFO
+</span></span></code></pre></div><p>Then you can enable those services:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>systemctl enable paperless-webserver.socket
+</span></span><span style="display:flex;"><span>systemctl enable paperless-webserver
+</span></span><span style="display:flex;"><span>systemctl enable paperless-consumer.service
+</span></span><span style="display:flex;"><span>systemctl enable paperless-scheduler.service
+</span></span><span style="display:flex;"><span>systemctl enable paperless-task-queue.service
+</span></span></code></pre></div><p>and then start them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>systemctl start paperless-webserver.socket
+</span></span><span style="display:flex;"><span>systemctl start paperless-webserver.service
+</span></span><span style="display:flex;"><span>systemctl start paperless-consumer.service
+</span></span><span style="display:flex;"><span>systemctl start paperless-scheduler.service
+</span></span><span style="display:flex;"><span>systemctl start paperless-task-queue.service
+</span></span></code></pre></div><p>Please remember to check on those services in order to see if there is any problem:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>systemctl status paperless-webserver.socket
+</span></span><span style="display:flex;"><span>systemctl status paperless-webserver.service
+</span></span><span style="display:flex;"><span>systemctl status paperless-consumer.service
+</span></span><span style="display:flex;"><span>systemctl status paperless-scheduler.service
+</span></span><span style="display:flex;"><span>systemctl status paperless-task-queue.service
+</span></span></code></pre></div><p>Best do this service by service.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://blog.literarily-starved.com/" >
+    &copy;  Literarily Starved 2026 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
