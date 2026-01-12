@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 1 | Literarily Starved</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.154.0">
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/icons8-hand-cursor-24.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:url" content="https://blog.literarily-starved.com/2026/01/tutorial-paperless-ngx-in-a-lxc-container-on-proxmox-part-1/">
+  <meta property="og:site_name" content="Literarily Starved">
+  <meta property="og:title" content="Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 1">
+  <meta property="og:description" content="About Paperless-NGX and why I install it in Proxmox LXC">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-12T14:25:00+02:00">
+    <meta property="article:modified_time" content="2026-01-12T14:25:00+02:00">
+
+  <meta itemprop="name" content="Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 1">
+  <meta itemprop="description" content="About Paperless-NGX and why I install it in Proxmox LXC">
+  <meta itemprop="datePublished" content="2026-01-12T14:25:00+02:00">
+  <meta itemprop="dateModified" content="2026-01-12T14:25:00+02:00">
+  <meta itemprop="wordCount" content="814">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 1">
+  <meta name="twitter:description" content="About Paperless-NGX and why I install it in Proxmox LXC">
+</head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Literarily Starved
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about.html" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact.html" title="Contact/Author page">
+              Contact/Author
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/legal.html" title="Legal/Disclaimer page">
+              Legal/Disclaimer
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/index.xml" title="RSS page">
+              RSS
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+      <h1 class="f1 athelas mt3 mb1">Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 1</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-01-12T14:25:00&#43;02:00">January 12, 2026</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Important notes:</strong></p>
+<ul>
+<li>I am not a leading expert on any of the topics covered here. This is surely not the the &ldquo;ultimate guide&rdquo;. If you stumble over things I could have done better, I gladly listen to your advice.</li>
+<li>This tutorial will come in multiple parts. I will link them together in the end and put them in a blog post.</li>
+</ul>
+<h3 id="background">Background</h3>
+<p>Paperless NGX ist an Open Source Software that allows document management. It allows you to organize your documents in an efficient way. You can find the software and a lot of documentation here: <a href="https://docs.paperless-ngx.com/">https://docs.paperless-ngx.com/</a></p>
+<p>LXC is a system-container technology. It is an attempt to provide something more lightweight than a virtual machines but that still feels like one . They are intended that you login to them and manage them mostly like a Linux virtual machine. You can find a more in depth explanation here: <a href="https://linuxcontainers.org/">https://linuxcontainers.org/</a></p>
+<p>Proxmox VE is a virtualization environment like VMware. It allows you to run full fledged virtual machines and LXC containers. It has become my virtualization platform of choice. There is a free and a comercial version available here: <a href="https://www.proxmox.com/en/products/proxmox-virtual-environment/overview">https://www.proxmox.com/en/products/proxmox-virtual-environment/overview</a></p>
+<h3 id="why-paperless-ngx">Why Paperless-NGX?</h3>
+<p>In 2009 we had to take over the paperwork for elderly relatives they could no longer handle themselves. To make things even more complicated, my wife and I were living in different towns during the week due to work reasons. Also we had recently bought a house which also significantly increased joint paperwork. In order to work jointly on documents, we needed to have them in a digital format.</p>
+<p>So I bought a scanner. Better said: I bought multiple scanners until I settled for a Brother ADS-1600W.</p>
+<p>I don&rsquo;t want to go into too much depth, but there are two points really important in a scanner:</p>
+<ol>
+<li>The scanner can handle stacks of papers with reasonable reliability</li>
+<li>The scanner can work without any PC and deliver documents directly into a directory</li>
+</ol>
+<p>Luckily I am experienced with processes, so the best decision I made was to establish a process my wife and I both adhered to:</p>
+<ul>
+<li>Any document that arrrived in paper first received a serial number. For this I bought a pagination stamp which creates an automatic serial number on each stamping process. This was one of my best purchasing decisions.</li>
+<li>Then the document was scanned.</li>
+<li>When the document was scanned it was stamped as &ldquo;Scanned&rdquo;.</li>
+<li>The paper document was archived in folders ordered by serial number. That allows fast retrieval of any original copy.</li>
+<li>The scanned file was named according to a scheme that included Serial#, Recipient, Sender, Purpose, Date and &ldquo;tags&rdquo; like &ldquo;relevant for taxes&rdquo; or &ldquo;healthcare&rdquo;. After naming it was sorted into one or more directories.</li>
+</ul>
+<p>Document retrieval was looking for file names. And this was were the process was now breaking after 16 years. We now had about 5.000 documents stashed there and it became more and more complicated to retrieve them. We needed full text search that works across multiple platforms (Windows, MacOS, IOS).</p>
+<p>The second reason to start with Paperless-NGX was that more and more document arrived in a digital fashion (download, email). The workflow was rudimentarily adjusted by having an &ldquo;empty&rdquo; serial# for such documents. I didn&rsquo;t want to print them, serialize them and the scan them again. That would have felt stupid. But this would not have been a good solution.</p>
+<p>The third reason was the amount of manual effort involved. Naming the files felt bothersome. I put it off for month and then hundreds of documents were waiting. Usually tax season was the ultimate deadline. Also in manual processes, you make a lot of mistakes, mostly spelling the name of the correspondent wrong or hitting a wrong number. There was no automation assisting me.</p>
+<p>I thought of using AI to partially automate this process (naming and retrieval). But then I stumbled over Paperless-NGX and had the impression that it would solve most of my problems &ldquo;out of the box&rdquo;.</p>
+<h3 id="design-choices">Design choices</h3>
+<p>The standard way to run Paperless-NGX is to use a docker container. I am using Proxmox VE and that solution did not support running docker containers directly. There were two options to address this:</p>
+<ol>
+<li>Install a Linux VM, run Docker (or similar) inside that VM and then install Paperless-NGX as container</li>
+<li>Install a LXC Container and get Paperless-NGX working inside that container</li>
+</ol>
+<p>I decided for option 2 as it eliminated a technology layer completely. Docker is not extremely complex, but in my experience adding a technology layer to make your life simpler always backfires at some point. Furthermore using Docker makes you more prone to not understanding how the application really works. In case of debugging or updates this can carry a hefty price tag.</p>
+<p>This has one huge advantage to the reader of this tutorial. You can take 95% of this tutorial to install Paperless-NGX on a virtual machine or even a bare metal hardware.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://blog.literarily-starved.com/" >
+    &copy;  Literarily Starved 2026 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://infosec.exchange/@masek" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
