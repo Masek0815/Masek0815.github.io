@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Literarily Starved</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 12:13:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 13:26:00 +0200</lastBuildDate>
     <atom:link href="https://blog.literarily-starved.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technology: The XZ files</title>
+      <link>https://blog.literarily-starved.com/2026/02/technology-the-xz-files/</link>
+      <pubDate>Sat, 07 Feb 2026 13:26:00 +0200</pubDate>
+      <guid>https://blog.literarily-starved.com/2026/02/technology-the-xz-files/</guid>
+      <description>A Near Miss with Disaster? There are days when you can tell that something has just happened that will leave a lasting mark on your professional world. March 29, 2024, was another one of those days. And this time, the change was not for the better.</description>
+    </item>
     <item>
       <title>Technology: The (nearly) perfect USB cable tester does exist</title>
       <link>https://blog.literarily-starved.com/2026/02/technology-the-nearly-perfect-usb-cable-tester-does-exist/</link>
@@ -35,13 +42,6 @@
       <pubDate>Mon, 12 Jan 2026 14:33:00 +0200</pubDate>
       <guid>https://blog.literarily-starved.com/2026/01/technology-framework-for-evaluating-new-technologies/</guid>
       <description>I notice in a lot of discussions that I need to write down how I proceed when something new or revolutionary is announced in the press or the internet. So here it comes&amp;hellip;.</description>
-    </item>
-    <item>
-      <title>Tutorial: Paperless-NGX in a LXC-Container on Proxmox - Part 2</title>
-      <link>https://blog.literarily-starved.com/2026/01/tutorial-paperless-ngx-in-a-lxc-container-on-proxmox-part-2/</link>
-      <pubDate>Mon, 12 Jan 2026 14:29:00 +0200</pubDate>
-      <guid>https://blog.literarily-starved.com/2026/01/tutorial-paperless-ngx-in-a-lxc-container-on-proxmox-part-2/</guid>
-      <description>Core installation of Paperless-NGX</description>
     </item>
   </channel>
 </rss>
